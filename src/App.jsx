@@ -24,21 +24,12 @@ const socket = io(serverUrl, {
 const CARD_BACK = `${serverUrl}/api/card-back`;
 
 // Secure Electron Bridge (via preload.js + contextBridge)
-const electronAPI = window.electronAPI || {
-  isElectron: false,
-  openExternal: (url) => { window.open(url, '_blank', 'noopener,noreferrer'); },
-  refocusWindow: () => {},
-  setIgnoreMenuShortcuts: () => {},
-  selectDeckFile: async () => ({ canceled: true }),
-  onMenuLoadDeck: () => () => {}
-};
-
 const isElectron = Boolean(window.electronAPI?.isElectron || new URLSearchParams(window.location.search).get('electron') === 'true');
 
 const openExternalUrl = (url) => {
   try {
-    if (electronAPI.openExternal) {
-      electronAPI.openExternal(url);
+    if (window.electronAPI?.openExternal) {
+      window.electronAPI.openExternal(url);
       return;
     }
   } catch (err) {}
@@ -319,12 +310,12 @@ function App() {
         isAlert: false,
         onConfirm: () => {
           setConfirmDialog(null);
-          electronAPI.refocusWindow();
+          window.electronAPI?.refocusWindow();
           resolve(true);
         },
         onCancel: () => {
           setConfirmDialog(null);
-          electronAPI.refocusWindow();
+          window.electronAPI?.refocusWindow();
           resolve(false);
         }
       });
@@ -341,12 +332,12 @@ function App() {
         isAlert: true,
         onConfirm: () => {
           setConfirmDialog(null);
-          electronAPI.refocusWindow();
+          window.electronAPI?.refocusWindow();
           resolve();
         },
         onCancel: () => {
           setConfirmDialog(null);
-          electronAPI.refocusWindow();
+          window.electronAPI?.refocusWindow();
           resolve();
         }
       });
@@ -660,7 +651,7 @@ function App() {
           e.target !== document.activeElement && 
           !document.activeElement.contains(e.target)) {
         document.activeElement.blur();
-        electronAPI.setIgnoreMenuShortcuts(false);
+        window.electronAPI?.setIgnoreMenuShortcuts(false);
       }
     };
 
@@ -686,7 +677,7 @@ function App() {
   useEffect(() => {
     if (modal?.type === 'add_counter') {
       window.focus();
-      electronAPI.refocusWindow();
+      window.electronAPI?.refocusWindow();
       const timer = setTimeout(() => {
         const el = document.getElementById('customName');
         if (el) {
@@ -1233,9 +1224,9 @@ function App() {
     if (isOpeningDeckRef.current) return;
     isOpeningDeckRef.current = true;
     try {
-      if (electronAPI.selectDeckFile) {
-        const res = await electronAPI.selectDeckFile();
-        electronAPI.refocusWindow();
+      if (window.electronAPI?.selectDeckFile) {
+        const res = await window.electronAPI.selectDeckFile();
+        window.electronAPI?.refocusWindow();
         window.focus();
         if (res && !res.canceled && res.content) {
           await loadDeckFromXml(res.content, res.filename);
@@ -1254,8 +1245,8 @@ function App() {
   };
 
   useEffect(() => {
-    if (!electronAPI.onMenuLoadDeck) return;
-    const unsubscribe = electronAPI.onMenuLoadDeck(() => {
+    if (!window.electronAPI?.onMenuLoadDeck) return;
+    const unsubscribe = window.electronAPI.onMenuLoadDeck(() => {
       handleNativeDeckOpen();
     });
     return () => {
@@ -1585,7 +1576,7 @@ function App() {
 
   const addCustomCounter = (id) => {
     setModal({ type: 'add_counter', cardId: id });
-    electronAPI.refocusWindow();
+    window.electronAPI?.refocusWindow();
   };
 
   const drawCard = (amount = 1) => {
@@ -2151,10 +2142,10 @@ function App() {
                 onMouseDown={e => e.stopPropagation()}
                 onClick={e => { e.stopPropagation(); e.currentTarget.focus(); }}
                 onFocus={() => {
-                  electronAPI.setIgnoreMenuShortcuts(true);
+                  window.electronAPI?.setIgnoreMenuShortcuts(true);
                 }}
                 onBlur={() => {
-                  electronAPI.setIgnoreMenuShortcuts(false);
+                  window.electronAPI?.setIgnoreMenuShortcuts(false);
                 }}
               />
               <button onClick={() => {
@@ -2179,10 +2170,10 @@ function App() {
                 onMouseDown={e => e.stopPropagation()}
                 onClick={e => { e.stopPropagation(); e.currentTarget.focus(); }}
                 onFocus={() => {
-                  electronAPI.setIgnoreMenuShortcuts(true);
+                  window.electronAPI?.setIgnoreMenuShortcuts(true);
                 }}
                 onBlur={() => {
-                  electronAPI.setIgnoreMenuShortcuts(false);
+                  window.electronAPI?.setIgnoreMenuShortcuts(false);
                 }}
                 onKeyDown={(e) => { if(e.key==='Enter') document.getElementById('btn-name').click() }} 
               />
@@ -2208,10 +2199,10 @@ function App() {
                 onMouseDown={e => e.stopPropagation()}
                 onClick={e => { e.stopPropagation(); e.currentTarget.focus(); }}
                 onFocus={() => {
-                  electronAPI.setIgnoreMenuShortcuts(true);
+                  window.electronAPI?.setIgnoreMenuShortcuts(true);
                 }}
                 onBlur={() => {
-                  electronAPI.setIgnoreMenuShortcuts(false);
+                  window.electronAPI?.setIgnoreMenuShortcuts(false);
                 }}
                 onKeyDown={(e) => { if(e.key==='Enter') document.getElementById('btn-scry').click() }} 
               />
@@ -2237,10 +2228,10 @@ function App() {
                 onMouseDown={e => e.stopPropagation()}
                 onClick={e => { e.stopPropagation(); e.currentTarget.focus(); }}
                 onFocus={() => {
-                  electronAPI.setIgnoreMenuShortcuts(true);
+                  window.electronAPI?.setIgnoreMenuShortcuts(true);
                 }}
                 onBlur={() => {
-                  electronAPI.setIgnoreMenuShortcuts(false);
+                  window.electronAPI?.setIgnoreMenuShortcuts(false);
                 }}
                 onKeyDown={(e) => { if(e.key==='Enter') document.getElementById('btn-draw').click() }} 
               />
@@ -2266,10 +2257,10 @@ function App() {
                 onMouseDown={e => e.stopPropagation()}
                 onClick={e => { e.stopPropagation(); e.currentTarget.focus(); }}
                 onFocus={() => {
-                  electronAPI.setIgnoreMenuShortcuts(true);
+                  window.electronAPI?.setIgnoreMenuShortcuts(true);
                 }}
                 onBlur={() => {
-                  electronAPI.setIgnoreMenuShortcuts(false);
+                  window.electronAPI?.setIgnoreMenuShortcuts(false);
                 }}
                 onKeyDown={(e) => { if(e.key==='Enter') document.getElementById('btn-mill').click() }} 
               />
@@ -2296,10 +2287,10 @@ function App() {
                   onMouseDown={e => e.stopPropagation()}
                   onClick={e => { e.stopPropagation(); e.currentTarget.focus(); }}
                   onFocus={() => {
-                  electronAPI.setIgnoreMenuShortcuts(true);
+                  window.electronAPI?.setIgnoreMenuShortcuts(true);
                 }}
                 onBlur={() => {
-                  electronAPI.setIgnoreMenuShortcuts(false);
+                  window.electronAPI?.setIgnoreMenuShortcuts(false);
                 }}
                   onKeyDown={(e) => { if(e.key==='Enter') document.getElementById('btn-exile').click() }} 
                 />
@@ -2558,10 +2549,10 @@ function App() {
                   onMouseDown={(e) => e.stopPropagation()}
                   onClick={(e) => { e.stopPropagation(); e.currentTarget.focus(); }}
                   onFocus={() => {
-                  electronAPI.setIgnoreMenuShortcuts(true);
+                  window.electronAPI?.setIgnoreMenuShortcuts(true);
                 }}
                 onBlur={() => {
-                  electronAPI.setIgnoreMenuShortcuts(false);
+                  window.electronAPI?.setIgnoreMenuShortcuts(false);
                 }}
                   onKeyDown={(e) => { e.stopPropagation(); if(e.key==='Enter') document.getElementById('btn-add-custom').click() }} 
                 />
@@ -2573,10 +2564,10 @@ function App() {
                   onMouseDown={(e) => e.stopPropagation()}
                   onClick={(e) => { e.stopPropagation(); e.currentTarget.focus(); }}
                   onFocus={() => {
-                  electronAPI.setIgnoreMenuShortcuts(true);
+                  window.electronAPI?.setIgnoreMenuShortcuts(true);
                 }}
                 onBlur={() => {
-                  electronAPI.setIgnoreMenuShortcuts(false);
+                  window.electronAPI?.setIgnoreMenuShortcuts(false);
                 }}
                   onKeyDown={(e) => { e.stopPropagation(); if(e.key==='Enter') document.getElementById('btn-add-custom').click() }} 
                 />
@@ -4268,10 +4259,10 @@ function App() {
             onMouseDown={e => e.stopPropagation()}
             onClick={e => { e.stopPropagation(); e.currentTarget.focus(); }}
             onFocus={() => {
-                  electronAPI.setIgnoreMenuShortcuts(true);
+                  window.electronAPI?.setIgnoreMenuShortcuts(true);
                 }}
                 onBlur={() => {
-                  electronAPI.setIgnoreMenuShortcuts(false);
+                  window.electronAPI?.setIgnoreMenuShortcuts(false);
                 }}
             className="flex-1 p-1 px-2 border border-pink-200 rounded-full text-sm dark:bg-gray-700 dark:border-gray-600 dark:text-white outline-none focus:border-pink-400" 
             placeholder="Chat or /command..." 
