@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6c8d2e8-7cd8-11dd-8f94-e62b56d89593">
+  <section name="Main" shared="False">
+    <card qty="1" id="72e637db-7112-406f-809b-0eda248488b5">Leonardo, the Balance</card>
+    <card qty="1" id="774716f4-d211-497a-be91-69cd700edbf2">Donatello, the Brains</card>
+    <card qty="1" id="06c595fa-55ff-46f3-afaf-17edae465864">Splinter, the Mentor</card>
+    <card qty="1" id="bccdd54c-e64b-44d2-87b3-e80029672529">Raphael, the Muscle</card>
+    <card qty="1" id="bac2d744-db65-4b56-8634-c87fd00c090e">Michelangelo, the Heart</card>
+    <card qty="1" id="ccc2a4e6-f505-4040-9d8a-c7b8e1a2b55e">Heroes in a Half Shell</card>
+    <card qty="1" id="2c99c472-8820-43d8-9dfa-508dc3d07478">Continue?</card>
+    <card qty="1" id="387f6f60-69da-4965-9ab9-57bdb763a013">Endless Foot Assault</card>
+    <card qty="1" id="7265ab42-5434-4127-acd6-8905ab63d62d">April O&apos;Neil, Live on the Scene</card>
+    <card qty="1" id="f5ee290f-03cd-48a8-ba6e-d934cb3f4ff4">Baxter, Fly in the Ointment</card>
+    <card qty="1" id="096a07e2-c213-4f8a-852f-813435bf1655">Here Comes a New Hero!</card>
+    <card qty="1" id="c3128529-4ccd-4809-8388-03f7faa0eabe">Irma, Part-Time Mutant</card>
+    <card qty="1" id="08a0ca58-e29e-477e-9377-f8b00e4b28a0">Krang, the All-Powerful</card>
+    <card qty="1" id="796c1b1c-c701-4c7e-922b-0964f04e03a6">Ray Fillet, Wave Warrior</card>
+    <card qty="1" id="af2a1494-9c0d-4590-999b-2c52725dc5d0">Bebop, Skull and Crossbones</card>
+    <card qty="1" id="fe4ab58f-3fb5-45fa-8ea1-794efa6f7da9">Dimension X Pizzasaur</card>
+    <card qty="1" id="f43fa5c7-51e6-4824-95f8-837ccc77a6ce">Foot Chopper</card>
+    <card qty="1" id="f1eb50a6-07e2-41de-b948-8075bba197ee">Game Over</card>
+    <card qty="1" id="9b215ce4-a085-4627-99b1-f4f1344ad41b">Rat King, Pale Piper</card>
+    <card qty="1" id="ddf4d3c9-bef9-4796-91ef-3d5beebae571">Shredder, Shadow Master</card>
+    <card qty="1" id="442feb65-9c0f-4962-8518-78e6d314c916">Swift Demise</card>
+    <card qty="1" id="416d888d-2699-49bd-830b-bf5bda25c91f">Casey Jones, Back Alley Brute</card>
+    <card qty="1" id="1ead9586-2b40-498e-90d3-c8a3aa81ef92">Electric Seaweed</card>
+    <card qty="1" id="fe07512e-46c1-4f45-a06f-5875acaf8928">Fast Forward</card>
+    <card qty="1" id="7d180bb8-6a33-4c55-b4c0-2abbf6595d7b">Shellshock</card>
+    <card qty="1" id="600e2c3f-dfbd-4d5c-813a-47ae2d75ac12">Special Move</card>
+    <card qty="1" id="4ccb74c9-046a-4d6b-b8c2-641e2a238d52">Tempestra, Dame of Games</card>
+    <card qty="1" id="8bc5a0ac-5979-43ce-8a65-98c5f09f4aa6">Tokka and Rahzar, Unsupervised</card>
+    <card qty="1" id="b9077ef5-d19a-4106-950b-bb49b3b37510">High Score</card>
+    <card qty="1" id="c0cacd61-bdce-46c6-ac7f-b084987d9aec">Leatherhead, Iron Gator</card>
+    <card qty="1" id="d4398907-17d2-4fad-bfa9-56925fb75834">Level Up</card>
+    <card qty="1" id="74c24ff9-d3d2-4ffb-bf8b-dba803481a99">Ninja Pizza</card>
+    <card qty="1" id="ae25d91f-5489-4cd8-8634-42bcd32d4cf1">Rocksteady, Mutant Marauder</card>
+    <card qty="1" id="52bed0d4-3bcf-4770-b9c9-2a1d0666d220">Super Combo</card>
+    <card qty="1" id="c0b94a92-48d5-4d08-a8fa-6f3a992db941">Double Jump // Flying Kick</card>
+    <card qty="1" id="b2fd1df8-cc67-4209-af9d-5cf18c68cca9">Arcade Cabinet</card>
+    <card qty="1" id="c9ae6898-6b5a-43bd-8c84-4d8add285f7d">Big Mother Mouser</card>
+    <card qty="1" id="ca053574-2ac9-4814-955d-87a97e0aca7e">Coin of Mastery</card>
+    <card qty="1" id="dee26c1c-f890-46ca-81bb-2bd63fa691c9">Exploding Barrel</card>
+    <card qty="1" id="248757d9-f590-4f90-98a5-3df947b2bff6">Mole Module</card>
+    <card qty="1" id="3fc23e7a-5059-4c8d-85bd-224f4c1bfc1c">Roadkill Rodney</card>
+    <card qty="1" id="b9cc16f9-fea3-4527-9b81-3c84ce9c5e01">Big Apple, 3 a.m.</card>
+    <card qty="1" id="f356522c-018d-43c7-988a-9ef9829ae75c">Hidden Hideout</card>
+    <card qty="1" id="1b19f82a-9724-41b1-934d-a8ec1493587b">Together Forever</card>
+    <card qty="1" id="f392782b-7464-4617-b421-6b5d0e2880fc">Vanquish the Horde</card>
+    <card qty="1" id="8fb141d9-addd-47ad-bfc1-b5b376d4c950">Wave Goodbye</card>
+    <card qty="1" id="7d4b1d44-126e-4987-9a9f-f0f9627a09cb">Blasphemous Act</card>
+    <card qty="1" id="0e850205-d010-49af-b68b-262360751b70">Biogenic Ooze</card>
+    <card qty="1" id="c9889a59-519c-4adb-9002-dbed400a0d33">Steelbane Hydra</card>
+    <card qty="1" id="ea7047d8-8d32-48a3-829b-7eb5427ed53a">Vigor</card>
+    <card qty="1" id="74bbe44f-864a-446c-bfc9-5f5188e663b8">Voracious Hydra</card>
+    <card qty="1" id="aaf258fc-3ba4-4b83-bdbf-10a07e0b6c03">Assassin&apos;s Trophy</card>
+    <card qty="1" id="29538ff4-e28f-44d9-af23-6796edd56268">Corpsejack Menace</card>
+    <card qty="1" id="9b29492a-8bdd-4806-8d1b-3058ed277cc1">Chromatic Lantern</card>
+    <card qty="1" id="ec93087a-5728-40e8-8625-a1d175d5252c">Cinder Glade</card>
+    <card qty="1" id="c21565d0-fc40-4d89-9b27-87c03385e0af">City of Brass</card>
+    <card qty="1" id="d20e433a-eb62-4301-bc20-bfe27468b033">Dragonskull Summit</card>
+    <card qty="1" id="d11c5fe0-1528-4c94-a8cc-42bcab9d7487">Exotic Orchard</card>
+    <card qty="1" id="62ef854d-ec9e-443d-a4ba-4b2875ed3fe7">Fabled Passage</card>
+    <card qty="1" id="b07eb189-559a-4cd5-95ac-f6612fd11cf1">Grand Coliseum</card>
+    <card qty="1" id="892451a1-5527-4857-84f8-62028d147489">Hinterland Harbor</card>
+    <card qty="1" id="3f967dee-1c2e-423a-823b-9fc74e8053bc">Rain-Slicked Copse</card>
+    <card qty="1" id="42d174e5-b8c2-45eb-8e08-1b94fc27cbee">Rootbound Crag</card>
+    <card qty="1" id="d707c477-440f-417c-970a-0e7426a58045">Smoldering Marsh</card>
+    <card qty="1" id="0a451ab5-6244-48a0-a638-07da72b156b5">Sodden Verdure</card>
+    <card qty="1" id="48444c3e-2068-4961-a9cd-9398052e5bd6">Spire Garden</card>
+    <card qty="1" id="3a8eef9b-9b03-42cd-a27a-07021bf0b33f">Sunken Hollow</card>
+    <card qty="1" id="f25aa8aa-e2f7-4634-8a96-2082e76c6503">Undergrowth Stadium</card>
+    <card qty="1" id="0466cf57-bb3e-4359-8fe8-d6cc1288fdc6">Vernal Fen</card>
+    <card qty="1" id="9fbaabb5-e981-4cbf-888c-46449412711f">Lita, Little Orphan Amphibian</card>
+    <card qty="1" id="c2164204-120c-4dff-86ac-46ca9012ccd9">Mona Lisa, Science Geek</card>
+    <card qty="1" id="0f886117-aff3-4db7-9cf5-7cbe94c8cd02">Lessons from Life</card>
+    <card qty="1" id="df2cdaa5-9ea0-4aa5-89d3-9edf40fa2a39">Everything Pizza</card>
+    <card qty="1" id="5df90940-15ea-418c-8547-6c75d69ec6d3">Escape Tunnel</card>
+    <card qty="1" id="c50c4580-979b-4863-86b9-16e258198972">Turtle Lair</card>
+    <card qty="1" id="932d48fb-42b5-4aaa-a91c-d35cdb5e41a3">Acidic Slime</card>
+    <card qty="1" id="e60deb92-f7dd-4f4e-9036-e47dd586f985">Cultivate</card>
+    <card qty="1" id="bd7138fb-6aa7-455e-b1f7-ca08d747277d">Harmonize</card>
+    <card qty="1" id="1cad1bd2-7c56-4ce0-99a6-b2a49c1288dd">Arcane Signet</card>
+    <card qty="1" id="91fdb56b-54d5-4272-8319-505ff987fe9b">Sol Ring</card>
+    <card qty="1" id="e8510205-4baa-4f1c-bf64-5d931e2ddf48">Ash Barrens</card>
+    <card qty="1" id="0548fb60-c843-4f8f-a029-6f10efc63a41">Command Tower</card>
+    <card qty="1" id="c0318a48-30e4-4ef7-be3d-5e561c5ce428">Evolving Wilds</card>
+    <card qty="1" id="b1aaa7b0-1cac-4a92-b880-7ef1ac00618f">Path of Ancestry</card>
+    <card qty="1" id="eef65ebc-12d6-4438-a908-2a0c28329124">Thriving Grove</card>
+    <card qty="1" id="58a3b5a5-eba0-4b4e-869a-5387ec7dd2b8">Thriving Isle</card>
+    <card qty="1" id="5d5eea5f-b9e8-4a10-8e7f-c42493a728cd">Thriving Moor</card>
+    <card qty="1" id="b5e7cdb4-7b4d-4c6c-b016-d6cd3f9a04f2">Vibrant Cityscape</card>
+    <card qty="2" id="8ab0f4c0-b331-4c57-b68f-2e24bb5ba06c">Plains</card>
+    <card qty="2" id="f3cc07cd-cc79-4745-b0b7-eade60175cc3">Island</card>
+    <card qty="2" id="b7387103-1df1-4fd0-9e91-1544509792c7">Swamp</card>
+    <card qty="2" id="2a844b96-6616-4c39-8f4f-5d14a3b2bd55">Mountain</card>
+    <card qty="4" id="dce15387-4114-4b3e-91aa-5b42b45c44ac">Forest</card>
+  </section>
+  <section name="Sideboard" shared="False">
+  </section>
+  <section name="Command Zone" shared="False">
+  </section>
+</deck>

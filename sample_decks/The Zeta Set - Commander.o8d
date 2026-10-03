@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6c8d2e8-7cd8-11dd-8f94-e62b56d89593">
+  <section name="Main" shared="False">
+    <card qty="1" id="a890c079-e8ea-4b47-ab2a-f9fe3e6496df">Colossal Dreadmaw</card>
+    <card qty="1" id="95dac3ad-d104-460d-92f3-fc7fc5950ba0">Cultivate</card>
+    <card qty="1" id="f39fb505-1877-4ecb-922f-781407f806b2">Disintegrate</card>
+    <card qty="1" id="d9f66510-11d1-4f95-9c7b-3594d60cd903">Cut Down</card>
+    <card qty="1" id="6aed3575-9439-4f1f-9efb-f9bdc68e2be9">Invigorate</card>
+    <card qty="1" id="bbcdd814-24a3-4a5c-b650-3460aba5d93a">All That Glitters</card>
+    <card qty="1" id="f44997f1-ac3c-47af-b16f-d29dc99f1479">Return to Dust</card>
+    <card qty="1" id="b0fe39cf-303b-42a9-84f8-a6f1ebc117ee">Sengir Vampire</card>
+    <card qty="1" id="93ad8d8c-afaf-4525-907c-2521aebcd7da">Arcane Signet</card>
+    <card qty="1" id="b3829399-e48f-45c9-bdef-2960164aba68">Copper Tablet</card>
+    <card qty="1" id="c5437b67-8ac2-4f19-b07d-249c3ee20a1f">Reliquary Tower</card>
+    <card qty="1" id="dee8a5b3-402c-4eeb-a11f-09a1ecc43b51">Sensei&apos;s Divining Top</card>
+    <card qty="1" id="4e99bec8-de40-4fdd-8e57-0f0fd0b6c526">Foundry Inspector</card>
+    <card qty="1" id="90e1844e-79bd-45ad-bfa6-ccb0e7a501b6">Feed the Swarm</card>
+    <card qty="1" id="a66b54eb-6dc8-460e-952f-31056df8f4ea">Glimpse the Impossible</card>
+    <card qty="1" id="1b43d697-8035-43d3-8860-6d5621728450">Eerie Interlude</card>
+    <card qty="1" id="b1628878-fa0a-4898-b293-2595ad2c8d0b">Night&apos;s Whisper</card>
+    <card qty="1" id="d9e2a55e-5d2a-4282-b577-23a33e3649a7">Generous Gift</card>
+    <card qty="1" id="ea786ac1-e8bf-47b0-af47-b2ec060b6601">Kazuul, Tyrant of the Cliffs</card>
+    <card qty="1" id="db7ee2d0-111a-48c5-aa95-7d879f9486bd">High Tide</card>
+    <card qty="1" id="0ef3c273-ec92-41d0-9abe-0f99e33db4f5">Lightning Bolt</card>
+    <card qty="1" id="808fd65a-1517-4663-8d6b-e64ea115a2b7">Nature&apos;s Claim</card>
+    <card qty="1" id="b0a79a71-7510-4427-a514-5f50811664a8">Go for the Throat</card>
+    <card qty="1" id="91857e86-a46d-49ea-941b-875d1d4b2445">Path to Exile</card>
+    <card qty="1" id="fa34eb77-31bb-48ec-b6c9-9b177fc0c143">Power Sink</card>
+    <card qty="1" id="435df275-3d3d-416d-b2be-a98f12b19887">Spell Pierce</card>
+    <card qty="1" id="650b3adf-dfb6-44dd-af77-50087fc2678e">Split Up</card>
+    <card qty="1" id="5719035b-930e-4f00-9c33-1c4cd6ba645c">Scythecat Cub</card>
+    <card qty="1" id="e1915e0e-15ae-4fbf-9b8a-b02d41d371cd">Scute Swarm</card>
+    <card qty="1" id="f342594b-38d0-4d8b-b624-52647317851f">Oboro, Palace in the Clouds</card>
+    <card qty="1" id="0aaa9d78-c499-433f-98a2-e716c43eacb3">Urborg, Tomb of Yawgmoth</card>
+    <card qty="1" id="4fb0a1a8-d64a-4d22-a078-7673fd63b3cf">Land Tax</card>
+    <card qty="1" id="a6b40db2-1b63-4b0f-9260-75c8739866f0">Mortuary</card>
+    <card qty="1" id="9e028b12-5fd9-4782-b2e5-be0ba4ae302f">Unearth</card>
+    <card qty="1" id="a82b3863-b8cb-407a-af53-1f099a1af98b">Vandalblast</card>
+    <card qty="1" id="9a3dfaeb-6ab9-45a2-9e8c-1603da1cd49d">An Offer You Can&apos;t Refuse</card>
+    <card qty="1" id="df0cc01f-356e-4645-96d6-e730e2d23482">Baleful Strix</card>
+    <card qty="1" id="e271fd6a-1a18-4c23-8797-32759aae9ed1">The Jolly Balloon Man</card>
+    <card qty="1" id="fcd28411-208e-452b-9b29-0c3981516fe0">Wild Growth</card>
+    <card qty="1" id="d5d9bc32-e2d6-43e6-bb32-4237a795abfa">Animate Dead</card>
+    <card qty="1" id="21ae21fb-09c4-4b2e-81ea-96cfe8c272a3">Dispatch</card>
+    <card qty="1" id="39050703-bf87-4c95-ba08-d25081709d21">Serra Angel</card>
+    <card qty="1" id="d055f376-62ed-4478-a4b5-7739b5a570dd">Price of Progress</card>
+    <card qty="1" id="ad57bb4b-5236-4818-b4ce-e6d79310f6b2">Imp&apos;s Mischief</card>
+    <card qty="1" id="9e7baa5f-f505-4200-9a38-465bdca8ad76">Cathartic Reunion</card>
+    <card qty="1" id="e805bbad-a54e-4c13-9ce2-d9852a632f8c">Chrome Mox</card>
+    <card qty="1" id="496d2bd9-163c-4baa-bd86-d64a3691ecef">Clown Car</card>
+    <card qty="1" id="911bf6be-8355-4774-b382-e1a33cd91a4d">Thought Vessel</card>
+    <card qty="1" id="5165917b-4d9c-4dc4-917b-a3a17d5869f7">Lord Skitter, Sewer King</card>
+    <card qty="1" id="e4acb633-65a4-4bab-a9be-eaaa75d89db6">Command Tower</card>
+    <card qty="1" id="2124b0a9-7c88-4df0-af5e-6cc16f7eee63">Imprisoned in the Moon</card>
+    <card qty="1" id="a15d231e-afa3-47d3-972e-7d4faed0db58">Chromatic Lantern</card>
+    <card qty="1" id="1469e9f9-0ac6-40d4-ab3d-ae9cb298aa1b">Mox Tantalite</card>
+    <card qty="1" id="ee056dbf-7f3a-47dd-b6b6-7938eb8ec5b6">Chromatic Orrery</card>
+    <card qty="1" id="797655c9-9e58-4308-b6b8-3d8a3434d0cd">Manifold Key</card>
+    <card qty="1" id="83769ac7-fbee-4848-8dda-1a97eaf1f071">Panoptic Mirror</card>
+    <card qty="1" id="2ec13f4c-41e4-4297-8c2b-158bbb107671">Ornithopter</card>
+    <card qty="1" id="0ab38fe7-1929-44f6-b4ce-ce8cfacbfb76">Sol Ring</card>
+    <card qty="1" id="41d9f097-e563-439a-8460-15604636d121">Wild Nacatl</card>
+    <card qty="1" id="2526a07a-0b92-4e31-81fe-14fb067b5821">Llanowar Elves</card>
+    <card qty="1" id="d3827fdd-89a9-4ec3-92f7-69a5c1cbc622">Birds of Paradise</card>
+    <card qty="1" id="bd2f6088-4899-455d-a384-6337d0ea852e">Clone</card>
+    <card qty="1" id="277aac7d-8a7f-4598-bd1a-cf1c1c6df2f5">Simian Spirit Guide</card>
+    <card qty="1" id="1c123aa6-4133-4ca5-ab78-363be12547d8">Hypnotic Specter</card>
+    <card qty="1" id="aaf19a4f-f9e1-4fe7-8510-67b8f27dd019">Guttersnipe</card>
+    <card qty="5" id="f8dca86c-4dd3-4016-bab1-dd259b68b66c">Plains</card>
+    <card qty="5" id="59f95235-3ca9-47d7-be6a-aebfb29fcbbd">Forest</card>
+    <card qty="5" id="5b643680-4e28-4ae2-b4d6-609d2150a171">Swamp</card>
+    <card qty="5" id="5256e591-7510-41fd-8564-330562c00adb">Mountain</card>
+    <card qty="5" id="c0a03261-6766-47e6-ba81-c6c58618939d">Island</card>
+    <card qty="1" id="3ff751c7-34c9-498a-bd9f-c6b0c8a194f4">Glacial Fortress</card>
+    <card qty="1" id="70afd57f-d4cb-4219-a2c7-28ed9b1abe0f">Drowned Catacomb</card>
+    <card qty="1" id="be0481ee-a028-436d-a4f8-a43720d1e542">Rootbound Crag</card>
+    <card qty="1" id="60ecd9bf-757b-4eeb-bef3-0b9ad2e86fca">Dragonskull Summit</card>
+    <card qty="1" id="e6fe0942-a5c9-4821-9992-19467e3a1176">Sunpetal Grove</card>
+    <card qty="1" id="034ad345-96f6-40aa-b610-1eaab258fb38">Desolate Lighthouse</card>
+    <card qty="1" id="fcc626a1-cfb0-4e1f-80fc-7c1ff07ee424">Cavern of Souls</card>
+    <card qty="1" id="bcb4e64b-e978-49ba-8e3e-4792f975fb61">Kessig Wolf Run</card>
+    <card qty="1" id="eb35ff06-c5bf-460e-8a79-422bda257cfe">Battlefield Forge</card>
+  </section>
+  <section name="Sideboard" shared="False">
+    <card qty="1" id="c4d1d0f1-4866-4aed-9f76-327be8537289">Rogue&apos;s Gloves</card>
+    <card qty="1" id="fd128266-9260-4dfd-84e5-1627e27a5b0d">Ward of Bones</card>
+    <card qty="1" id="1fc0f15b-97c4-45ba-8bbf-de54b331b45a">Cruel Reality</card>
+    <card qty="1" id="2d764cd4-0cec-425c-8cc4-68a81c1f296b">Regrowth</card>
+    <card qty="1" id="fd4f6e34-3f66-4e10-8170-56039c5f6fcc">Shivan Dragon</card>
+    <card qty="1" id="0eaf0ac8-f5a7-4689-8d3e-dd865763df44">Terror</card>
+    <card qty="1" id="f77f61a8-0b20-4f2e-8a24-844dc95c3a9e">Braingeyser</card>
+    <card qty="1" id="41859c6f-1017-42ae-9061-050fe0db9731">Disenchant</card>
+    <card qty="1" id="e8aa352c-befb-43a7-9a00-5f50aa85a2e2">Cloud Key</card>
+    <card qty="1" id="4a2e428c-dd25-484c-bbc8-2d6ce10ef42c">Black Lotus</card>
+  </section>
+  <section name="Command Zone" shared="False">
+    <card qty="1" id="baab7523-9d31-48da-8ed0-cb2232945b19">Garth One-Eye</card>
+  </section>
+</deck>

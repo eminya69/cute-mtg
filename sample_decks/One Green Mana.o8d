@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6c8d2e8-7cd8-11dd-8f94-e62b56d89593">
+  <section name="Main" shared="False">
+    <card qty="1" id="40bab3e7-f2c8-4025-8463-9e4de10091e7">Elvish Lyrist</card>
+    <card qty="1" id="880468be-3f4d-4dbf-92e7-cf212da7f718">Elvish Mystic</card>
+    <card qty="29" id="7df94d2c-7c1f-4461-8f70-c2bd4ebb95be">Forest</card>
+    <card qty="1" id="3941e799-a254-423e-90bb-091dbe56ca6a">Frog Tongue</card>
+    <card qty="1" id="de49db1e-3cb7-4f1a-9637-23e5820a0144">Haywire Mite</card>
+    <card qty="1" id="40b0813a-38cf-4a07-81d6-91d24af8b549">Audacity</card>
+    <card qty="1" id="eebf8f67-49d0-42de-a5cc-ad13d19d2c55">Cliffhaven Kitesail</card>
+    <card qty="1" id="73d135b2-d2b8-499c-84d9-824370c19ccc">Elven Farsight</card>
+    <card qty="1" id="d15adc93-1a71-453b-8277-4a525a9cbc7b">Abundant Growth</card>
+    <card qty="1" id="424972d6-3b2c-449b-b786-749a77020fa1">Ankle Biter</card>
+    <card qty="1" id="8278069a-bd92-40ee-b7d5-e740dddb00fa">Arachnoid Adaptation</card>
+    <card qty="1" id="8c61d23e-2be3-4b99-a24c-2a55e29d99d3">Arbor Elf</card>
+    <card qty="1" id="9eb7b2ae-a364-485b-ae75-10dbb0af5541">Arboreal Grazer</card>
+    <card qty="1" id="20aae577-9683-4d9b-bfd5-52702b38d3a7">Bequeathal</card>
+    <card qty="1" id="c5c0e3e1-a578-4c3d-95d1-f1c6c243779d">Caustic Caterpillar</card>
+    <card qty="1" id="4ce4b7bc-636b-4723-a7c1-2c859f333492">Cenote Scout</card>
+    <card qty="1" id="ed16926f-feb0-481a-8c5e-88ea119752cd">Charge Through</card>
+    <card qty="1" id="074b1e00-45bb-4436-8f5e-058512b2d08a">Dragon Sniper</card>
+    <card qty="1" id="e9923532-bc4f-44de-b963-d6914321c49a">Druid Lyrist</card>
+    <card qty="1" id="c259509e-9f95-4566-b78a-ba34107539f7">Dryad&apos;s Favor</card>
+    <card qty="1" id="a4b05d37-df62-475c-8371-735ed2fa1b05">Elixir</card>
+    <card qty="1" id="b5862e38-b48b-45e1-b0f6-d1d0d1124e50">Emerald Charm</card>
+    <card qty="1" id="bc50f65f-1866-4fa6-b318-1d981845723b">Explorer&apos;s Scope</card>
+    <card qty="1" id="2dd0fef1-209f-4de5-a736-8f9bca2faa0a">Fang of Shigeki</card>
+    <card qty="1" id="4dced21f-478c-4500-9484-af5864dea5cc">Gran Pulse Ochu</card>
+    <card qty="1" id="7839ce48-0175-494a-ab89-9bdfb7a50cb1">Heirloom Epic</card>
+    <card qty="1" id="09c8cf4b-8e65-4a1c-b458-28b5ab56b390">High Stride</card>
+    <card qty="1" id="d60d2e62-06da-410a-81ed-6cebb2632fb6">Insidious Fungus</card>
+    <card qty="1" id="eb613e46-af18-4195-883b-cdd35b2eaf50">Irresistible Prey</card>
+    <card qty="1" id="5356e684-c2fc-465e-a16c-7300824d2a8d">Krosan Wayfarer</card>
+    <card qty="1" id="2785f716-274c-495c-b4e3-71a72e22f856">Leaping Ambush</card>
+    <card qty="1" id="1c8c9473-97f4-4875-8f06-d3a70d4cbe6d">Llanowar Augur</card>
+    <card qty="1" id="6a0b230b-d391-4998-a3f7-7b158a0ec2cd">Llanowar Elves</card>
+    <card qty="1" id="e0f894e7-adf7-4fe5-811a-8e2d8c8a88d6">Llanowar Mentor</card>
+    <card qty="1" id="284e165e-9ab6-47fc-9685-0fb03de237df">Llanowar Reborn</card>
+    <card qty="1" id="c042c7ee-0e74-4ca5-bbb9-2898b0576f0a">Mending Touch</card>
+    <card qty="1" id="eac1d5cd-6e62-4fa3-84ee-177d0312691b">Might of the Masses</card>
+    <card qty="1" id="48d665cd-a2c6-4b81-8032-379e476b5ea5">Mold Adder</card>
+    <card qty="1" id="a4d35ec4-0e0d-4611-8ad9-39d2c8a2ad6e">Moss Viper</card>
+    <card qty="1" id="01234d4c-ff3d-40a8-8404-9790d3ee3620">Neverwinter Dryad</card>
+    <card qty="1" id="189a8c23-4d30-4b0b-8561-b8c22bbc194a">Oashra Cultivator</card>
+    <card qty="1" id="ec0c49ab-da04-4461-8440-d6c9086443c6">Ornamental Courage</card>
+    <card qty="1" id="b71290eb-b529-4fc3-ab94-fee0ab9e2169">Permeating Mass</card>
+    <card qty="1" id="75a1beec-bafe-4243-b91e-040a88fb0e95">Prosthetic Injector</card>
+    <card qty="1" id="320fdf89-e158-41c5-b0bf-fee9dec36a75">Quirion Ranger</card>
+    <card qty="1" id="31078795-44ab-4963-950c-bd693433dcff">Reclaim</card>
+    <card qty="1" id="dda6b4d0-1b60-46b0-b321-b9ffe15afff4">Sazh&apos;s Chocobo</card>
+    <card qty="1" id="7ff2dd57-9d8c-44ec-9705-70ed02bf0799">Scavenger Folk</card>
+    <card qty="1" id="9864f811-db2e-4d6d-ad59-a491a790bdd4">Sedge Scorpion</card>
+    <card qty="1" id="e42746e1-f422-4453-a860-3993d5796479">Seedling Charm</card>
+    <card qty="1" id="930240dc-9c8c-4857-b6ce-85f1689c60e5">Shapers&apos; Sanctuary</card>
+    <card qty="1" id="e564db6b-0b8b-4c67-9135-5da76d2225fe">Sixth Sense</card>
+    <card qty="1" id="3164ebb4-269a-4be6-a535-a112303f9fe8">Spore Frog</card>
+    <card qty="1" id="ed492850-eb0d-49d7-9167-70f10807c99f">Sudden Spinnerets</card>
+    <card qty="1" id="7f3d6020-6767-406c-bf28-6b3e9ae72f50">Tajuru Blightblade</card>
+    <card qty="1" id="6b24af94-9632-47da-9bf3-e81bb743cd43">Taunting Elf</card>
+    <card qty="1" id="be294c4e-712b-459c-a36c-e26ed5c27edb">Team Pennant</card>
+    <card qty="1" id="2350027a-f3a4-4cba-9dfc-27e33bddb3be">Teething Wurmlet</card>
+    <card qty="1" id="ce65aabe-5fd8-4b62-b13c-12e4bb91aacb">Traproot Kami</card>
+    <card qty="1" id="eda59f99-1d6d-4051-ac89-b7cbfa19262e">Trash the Town</card>
+    <card qty="1" id="fcfcb643-bbd1-419a-b1a8-daae1062c8bc">Turn to Dust</card>
+    <card qty="1" id="aefcd734-3916-4c77-9d98-3ea2c2795658">Turtle-Duck</card>
+    <card qty="1" id="393fc419-a6ce-447d-9994-744cf41f9a27">Unbridled Growth</card>
+    <card qty="1" id="3a7fd24e-84d8-405d-86e4-0571a9e23cc2">Vastwood Fortification // Vastwood Thicket</card>
+    <card qty="1" id="d1b032e3-14e3-48ba-ab8a-d2b4f8d31a7d">Venerated Rotpriest</card>
+    <card qty="1" id="6c33871f-0e6a-4616-b484-e79b1945255f">Viridescent Wisps</card>
+    <card qty="1" id="c719bc31-962f-4bf5-a2fd-8cbac6c498d6">Warriors&apos; Lesson</card>
+    <card qty="1" id="d237f5cc-2b9b-4929-9697-72078bac4c77">Wirewood Symbiote</card>
+    <card qty="1" id="ed2ca825-b029-495f-83fc-54366229d417">Young Wolf</card>
+    <card qty="1" id="7160f5f0-8ab8-4ec1-a84c-cfe49cb43b8d">Skullclamp</card>
+    <card qty="1" id="8bbab274-69dd-44a9-9310-a15779c35cad">Stony Strength</card>
+  </section>
+  <section name="Sideboard" shared="False">
+  </section>
+  <section name="Command Zone" shared="False">
+    <card qty="1" id="b7938b15-7585-43fb-897f-a57e820665b3">Oviya Pashiri, Sage Lifecrafter</card>
+  </section>
+</deck>

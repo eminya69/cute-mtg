@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6c8d2e8-7cd8-11dd-8f94-e62b56d89593">
+  <section name="Main" shared="False">
+    <card qty="2" id="d174cb01-b1cf-444c-a893-cc61ddf88b8c">Devout Decree</card>
+    <card qty="4" id="b6310a82-73db-40cb-ae64-6f07f869024c">Regal Caracal</card>
+    <card qty="4" id="524a5d93-26ed-436d-a437-dc9460acce98">Arahbo, the First Fang</card>
+    <card qty="1" id="59793f1c-8c7e-433e-9c09-40aa3ce931a1">Ajani, Caller of the Pride</card>
+    <card qty="2" id="222c1a68-e34c-4103-b1be-17d4ceaef6ce">Ajani&apos;s Pridemate</card>
+    <card qty="3" id="0a09344c-e869-4a8e-9be6-a29f1a5b6df6">Helpful Hunter</card>
+    <card qty="2" id="53e3fa87-8de0-4e3a-90bf-780dd0a9fb48">Authority of the Consuls</card>
+    <card qty="2" id="ac63941b-3f78-4bd3-8b05-ca12aaaa006c">Case of the Uneaten Feast</card>
+    <card qty="2" id="40960e47-3065-485e-aede-29a62411034e">Leyline of Hope</card>
+    <card qty="2" id="96e84bdc-8a9a-4c58-ba8b-9f052fd60069">Day of Judgment</card>
+    <card qty="19" id="8ab0f4c0-b331-4c57-b68f-2e24bb5ba06c">Plains</card>
+    <card qty="1" id="3aad15a2-8a1b-4460-9b06-e85863081878">Cavern of Souls</card>
+    <card qty="3" id="7bd187b7-5001-4fc3-8c1e-7093827027ee">Hinterland Sanctifier</card>
+    <card qty="2" id="89e3cc09-5057-4c05-88fc-d6cda809fc74">Felidar Retreat</card>
+    <card qty="2" id="b742117a-8a72-43b9-b05d-274829d138a2">Prideful Parent</card>
+    <card qty="3" id="32e670da-7563-4f6a-a7db-4c126a440eb8">Erode</card>
+    <card qty="1" id="658cfcb7-81b7-48c6-9dd2-1663d06108cf">Fountainport</card>
+    <card qty="2" id="88f0c189-c9ed-4ea3-ae62-3d8ac6c7fecf">Belladonna Took</card>
+    <card qty="2" id="b3f8d221-081f-49f5-a501-07e5eb21a840">Rent Is Due</card>
+    <card qty="1" id="3348abe7-6aa3-47f7-8203-a15f75007e33">Hunter&apos;s Blowgun</card>
+  </section>
+  <section name="Sideboard" shared="False">
+  </section>
+  <section name="Command Zone" shared="False">
+  </section>
+</deck>

@@ -1,0 +1,23 @@
+{
+  "name": "cute-mtg-client",
+  "version": "1.0.0",
+  "description": "Cute MTG LAN Client",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win --x64"
+  },
+  "build": {
+    "appId": "com.cutemtg.client",
+    "win": {
+      "target": "dir",
+      "verifyUpdateCodeSignature": false,
+      "sign": false
+    }
+  },
+  "devDependencies": {
+    "electron": "^44.4.5",
+    "electron-builder": "^24.13.3",
+    "electron-packager": "^17.1.2"
+  }
+}

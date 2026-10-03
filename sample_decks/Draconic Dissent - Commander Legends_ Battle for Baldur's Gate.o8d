@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6c8d2e8-7cd8-11dd-8f94-e62b56d89593">
+  <section name="Main" shared="False">
+    <card qty="1" id="cd153e03-4fe1-477d-9e7f-ee5c432a4285">Aether Gale</card>
+    <card qty="1" id="e885f56a-a1e8-4289-bbf5-3b156e53f7db">Agitator Ant</card>
+    <card qty="1" id="9c8d57fc-9695-45df-8b88-0048330608bd">Angler Turtle</card>
+    <card qty="1" id="5b245a5b-5a99-4d22-99ef-3f5bf49c3262">Arcane Signet</card>
+    <card qty="1" id="cf4e9335-06e3-4b27-8fd8-3e44ece89a36">Artificer Class</card>
+    <card qty="1" id="fb71aebf-f5d3-45ee-91a4-51088f7141ec">Ash Barrens</card>
+    <card qty="1" id="670fbc63-4c9b-4e57-b53e-4ca4d7a224ba">Astral Dragon</card>
+    <card qty="1" id="7951ef42-8e14-4920-bf8a-75ab48e8645a">Avatar of Slaughter</card>
+    <card qty="1" id="ec983aac-9eda-4086-ad7e-34da9b2987cc">Baeloth Barrityl, Entertainer</card>
+    <card qty="1" id="ba975f60-ca29-4fc8-b2f0-416be395f200">Blasphemous Act</card>
+    <card qty="1" id="bfe00149-b9ca-43d9-aff1-5c2da4dc7753">Bloodthirsty Blade</card>
+    <card qty="1" id="6e9a0a23-cd62-4762-b751-ac0159a1b3c5">Bothersome Quasit</card>
+    <card qty="1" id="a1480f99-83f8-48e7-ba52-9a3f3a9a24f3">Brash Taunter</card>
+    <card qty="1" id="98c3f711-7191-4621-b36e-6c1e281216e2">Burnished Hart</card>
+    <card qty="1" id="dcf70844-18b1-4046-ae1d-ef41790bdcde">Castle Vantress</card>
+    <card qty="1" id="92ca793e-a54a-4e8f-a87d-f0dc4f178412">Chain Reaction</card>
+    <card qty="1" id="08219fbc-c155-4d1d-a08c-d2546c44bccc">Chaos Dragon</card>
+    <card qty="1" id="3e82f96f-bd2b-4672-b729-c44c943fcac9">Clan Crafter</card>
+    <card qty="1" id="7eafe88e-ab38-442c-b147-bb01cc81178d">Command Tower</card>
+    <card qty="1" id="27bc62c8-c795-4e4a-a57c-a5f34121b5d1">Compulsive Research</card>
+    <card qty="1" id="440acae3-aadb-40f0-a608-d1d93578c6b0">Curse of Opulence</card>
+    <card qty="1" id="ff611add-0b1b-4008-a78b-e793ccb38260">Curse of Verbosity</card>
+    <card qty="1" id="a0ef264e-f987-422e-aac1-ae4963c797f5">Curse of the Swine</card>
+    <card qty="1" id="537b9888-70c5-4bee-8f26-d1457fdf1167">Death Kiss</card>
+    <card qty="1" id="8b7f5239-29d3-4b2b-b464-7e43107b1348">Desolate Lighthouse</card>
+    <card qty="1" id="d1cfc692-f994-4975-acae-4440e9e5857c">Disrupt Decorum</card>
+    <card qty="1" id="dd2d9f47-2bd2-4a97-90c7-beca18a8e7fa">Dissipation Field</card>
+    <card qty="1" id="e8c3836d-a08b-424c-aefe-e1585161edf7">Domineering Will</card>
+    <card qty="1" id="36b6f0a8-b6c2-49fc-880c-01ad63213271">Dragon&apos;s Hoard</card>
+    <card qty="1" id="1c8429f1-1a91-4f29-8d56-4c061f21c183">Drakuseth, Maw of Flames</card>
+    <card qty="1" id="4bca6877-4e1d-4ecb-8812-d75d3470ffee">Fellwar Stone</card>
+    <card qty="1" id="1c5974dd-78fc-4bfb-8678-72041c797584">Geode Rager</card>
+    <card qty="1" id="1687ea64-fcc0-4bd8-aa7e-3c893d4ef2a8">Goblin Spymaster</card>
+    <card qty="1" id="3d76d25c-b962-43e4-aa6f-7c6e3bd79f16">Hedron Archive</card>
+    <card qty="12" id="21b99a83-bfe4-4149-b626-269953c5ac51">Island</card>
+    <card qty="1" id="c86e42c6-342b-443f-9b99-a68cf536ff45">Izzet Boilerworks</card>
+    <card qty="1" id="9ddc741b-18d8-41b1-b61b-e2249cad8526">Izzet Signet</card>
+    <card qty="1" id="4ce569cd-964e-44d6-a155-5a853ccc1478">Kazuul, Tyrant of the Cliffs</card>
+    <card qty="1" id="44d544dc-1d2a-4b33-ae62-d0e0217db0a2">Keiga, the Tide Star</card>
+    <card qty="1" id="e44bba8e-59e9-4a06-b845-c3ba7625ff58">Kher Keep</card>
+    <card qty="1" id="0669a2bb-11c7-45d8-9299-09246ff4e72c">Loot Dispute</card>
+    <card qty="1" id="72ca85ed-3870-4ba4-abe7-cdcab3cad122">Midnight Clock</card>
+    <card qty="1" id="1969ddc0-ee6c-4c3d-a9dd-7f1c491609be">Mind Stone</card>
+    <card qty="1" id="6c5f81d8-b189-4f6e-872f-a237bb872aa9">Mocking Doppelganger</card>
+    <card qty="12" id="0333e39b-45e7-46df-908c-0748092ce8c1">Mountain</card>
+    <card qty="1" id="276f49f9-019b-44cb-a551-0fba9851ecc7">Myriad Landscape</card>
+    <card qty="1" id="3035a97f-5104-4b56-84a4-5206e75607fc">Niv-Mizzet, Parun</card>
+    <card qty="1" id="43710f35-c43f-48bf-82e1-64ba5c3fa03e">Path of Ancestry</card>
+    <card qty="1" id="bf90c219-508f-49af-a7f9-540021d49d8c">Prismari Campus</card>
+    <card qty="1" id="e5f293d7-9c2b-41cb-8e3c-dfc1daa6635f">Propaganda</card>
+    <card qty="1" id="288e811e-7beb-4379-95a3-e5f4e759aa9d">Psychic Impetus</card>
+    <card qty="1" id="f1ba925b-9216-4e37-814d-b061950b3998">Pursued Whale</card>
+    <card qty="1" id="9b5730aa-c74a-4c74-bb1b-a133a3c353ec">Reins of Power</card>
+    <card qty="1" id="1241912a-92d6-4942-b97b-f795e702c4ca">Reliquary Tower</card>
+    <card qty="1" id="bcf0514e-63b3-4695-93ae-527524d48c25">Rowan Kenrith</card>
+    <card qty="1" id="68d57ab8-fbe0-4f01-b7f7-2a5cccd2d13a">Ryusei, the Falling Star</card>
+    <card qty="1" id="57520d99-744f-41bb-9134-f28397a5cb2a">Shiny Impetus</card>
+    <card qty="1" id="c9ed183a-a78a-4934-9317-9f16b29e69a2">Sly Instigator</card>
+    <card qty="1" id="199cde21-5bc3-49cd-acd4-bae3af6e5881">Sol Ring</card>
+    <card qty="1" id="5fec09ec-a300-4d3c-8054-0250bb70b93b">Solemn Simulacrum</card>
+    <card qty="1" id="d5b1cbee-528f-48f7-b7c9-16aa3dab850a">Spectacular Showdown</card>
+    <card qty="1" id="361385d8-d9c7-4de8-a5c8-683e682779f4">Sprite Dragon</card>
+    <card qty="1" id="8823b43b-8a30-4226-b5a7-ac1c06ba146b">Steel Hellkite</card>
+    <card qty="1" id="978c2c7d-6898-4be2-aed7-e673210ce654">Stuffy Doll</card>
+    <card qty="1" id="28b4fea5-aa7b-40e7-a3c4-cb467af16b42">Talisman of Creativity</card>
+    <card qty="1" id="6b3692d4-be30-4b23-b6e7-0c4af8c034a2">Temple of Epiphany</card>
+    <card qty="1" id="1a8b9fd8-ece4-45ba-9fdf-4cb715bcd843">Temple of the False God</card>
+    <card qty="1" id="f40e9f0f-8c0d-4bfd-9872-370ce3763006">Terrain Generator</card>
+    <card qty="1" id="21618490-f33b-4607-ac61-25df8cb096a1">Territorial Hellkite</card>
+    <card qty="1" id="78161e60-878a-45a2-aced-40b739bd0a07">The Akroan War</card>
+    <card qty="1" id="9ff75ff4-495f-4a0c-9d98-69eff1b3fa32">Thunder Dragon</card>
+    <card qty="1" id="a5dabc03-a706-4e84-83e4-dbd405dfb025">Vengeful Ancestor</card>
+    <card qty="1" id="ce3a6a8e-a01e-4d14-a6e5-c02c8205c749">Wandering Fumarole</card>
+    <card qty="1" id="bbedbf64-cd51-4f40-9735-272bd86fdf84">Warmonger Hellkite</card>
+    <card qty="1" id="b865d247-fe0a-4583-b088-ae900ffe521b">Wayfarer&apos;s Bauble</card>
+    <card qty="1" id="406a3ae5-f57e-40ff-8eac-a01781f2329f">Will Kenrith</card>
+    <card qty="1" id="8d8ee7b0-ea23-4657-a171-ac8a1308cc4d">Chaos Warp</card>
+  </section>
+  <section name="Sideboard" shared="False">
+  </section>
+  <section name="Command Zone" shared="False">
+    <card qty="1" id="b55e624b-6f6a-42ae-89aa-0cc62ee55a31">Firkraag, Cunning Instigator</card>
+  </section>
+</deck>

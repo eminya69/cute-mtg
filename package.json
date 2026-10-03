@@ -1,0 +1,41 @@
+{
+  "name": "cute-mtg-lan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite --host",
+    "electron": "electron ./electron",
+    "start": "node main.js",
+    "build": "vite build",
+    "deploy": "npm install && npm run build && node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "express": "^4.21.0",
+    "fast-xml-parser": "^5.11.2",
+    "framer-motion": "^13.4.5",
+    "lucide-react": "^1.48.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "socket.io": "^4.8.4",
+    "socket.io-client": "^4.8.4",
+    "tailwind-merge": "^3.7.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.1",
+    "concurrently": "^10.0.5",
+    "electron": "^44.4.5",
+    "vite": "^8.3.1"
+  },
+  "pkg": {
+    "assets": "dist/**/*"
+  }
+}

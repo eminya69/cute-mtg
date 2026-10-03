@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6c8d2e8-7cd8-11dd-8f94-e62b56d89593">
+  <section name="Main" shared="False">
+    <card qty="1" id="2f5b4544-70d9-45ee-84a3-fa6253a53a82">Academy Manufactor</card>
+    <card qty="1" id="97b729d3-5965-4e16-a50a-1e9bf51a9f13">Skullclamp</card>
+    <card qty="1" id="1bccf8a9-d135-431e-bcc0-15ab29f8f8cb">Beastmaster Ascension</card>
+    <card qty="1" id="6a41e111-659e-4521-890f-19d814054dfc">Golgari Signet</card>
+    <card qty="1" id="dfd977dc-a7c3-4d0a-aca7-b25bd154e963">Cache Grab</card>
+    <card qty="1" id="63a39996-48b7-42bb-9759-a42382ee0468">Command Tower</card>
+    <card qty="1" id="e6d8d98d-29b2-4ca2-bbda-4db2e8f6ae0b">Exotic Orchard</card>
+    <card qty="9" id="bddc66f7-4e94-4857-ba7d-6b0083d0bfa0">Forest</card>
+    <card qty="1" id="89670a1b-a6f1-491d-bbb4-92e3382da653">Gourmand&apos;s Talent</card>
+    <card qty="1" id="52af8b70-a9c8-40d7-99da-fa51dc293688">Hazel&apos;s Brewmaster</card>
+    <card qty="1" id="bc5ee537-52e1-474a-9326-dfacc2a758ab">Honored Dreyleader</card>
+    <card qty="1" id="2ef58a8f-ce72-40c2-b032-818cc16267ce">Insatiable Frugivore</card>
+    <card qty="1" id="13158f3b-9d85-4689-9afa-7d9a8a2d1b09">Moonstone Eulogist</card>
+    <card qty="1" id="00756441-a734-4960-9c69-f03a508a1522">Rootcast Apprenticeship</card>
+    <card qty="1" id="c343b965-af2b-45c3-babb-9242736cf1e5">Scurry of Squirrels</card>
+    <card qty="8" id="6125ffe3-4e48-4e0f-8390-7462446fc8bf">Swamp</card>
+    <card qty="1" id="5dd51c2a-99ad-4866-9e0c-162746cb04d3">Swarmyard</card>
+    <card qty="1" id="8486f472-afad-4fdd-a57a-d20d8871b543">Swarmyard Massacre</card>
+    <card qty="1" id="de49db1e-3cb7-4f1a-9637-23e5820a0144">Haywire Mite</card>
+    <card qty="1" id="e18927dd-c50c-4fb2-8d4c-d0f853b68294">Skyfisher Spider</card>
+    <card qty="1" id="202011d5-755e-497b-b4a7-f2b6e6a0b464">Nested Shambler</card>
+    <card qty="1" id="c04bcc93-78b6-4e30-9129-76e2f4b60230">Binding the Old Gods</card>
+    <card qty="1" id="6b87b385-0ad9-4aa7-8a7e-c42b9c002a99">Idol of Oblivion</card>
+    <card qty="1" id="3be363dc-70f0-4de3-b7de-5e4db2264883">Bastion of Remembrance</card>
+    <card qty="1" id="916b3272-1b36-4c4e-b773-0bc696a7ef98">Putrefy</card>
+    <card qty="1" id="eaea189c-9973-435e-975d-dc47a331b28a">Plumb the Forbidden</card>
+    <card qty="1" id="b533e358-3b30-4719-a2a3-13fb9ea817c6">Nadier&apos;s Nightblade</card>
+    <card qty="1" id="f0b80608-1455-4899-9d19-1b1d2d068744">Chitterspitter</card>
+    <card qty="1" id="1517f3b6-579d-472f-a44e-ad7545407509">Barren Moor</card>
+    <card qty="1" id="fff440c0-7e6a-46c2-9989-f1b5af20fd44">Sol Ring</card>
+    <card qty="1" id="eed76e15-6456-4ddc-addf-f0e6eff8bb6a">Prosperous Innkeeper</card>
+    <card qty="1" id="ac47e057-86e0-4774-a3e9-b256ab317ba0">Beledros Witherbloom</card>
+    <card qty="1" id="b70293ae-d50d-44bf-aaa3-689727056ec5">Ogre Slumlord</card>
+    <card qty="1" id="28180667-cc1e-4f64-9a69-00425ef85ba0">Arcane Signet</card>
+    <card qty="1" id="bac26044-b41f-4c75-8bc1-26359250d8bc">Squirrel Nest</card>
+    <card qty="1" id="90f8de01-c1bd-4533-9e98-61e7d25dcf88">Saw in Half</card>
+    <card qty="1" id="7519b793-8fcb-40ea-bed9-285c390ded64">Bojuka Bog</card>
+    <card qty="1" id="fe425d81-833f-4ab9-b0e4-a1fa8ed26426">Ravenous Squirrel</card>
+    <card qty="1" id="d8f4d07b-2fc1-4d86-865b-b35526850c8e">Maelstrom Pulse</card>
+    <card qty="1" id="318370d0-1c12-4228-b2c9-2a766e234091">Morbid Opportunist</card>
+    <card qty="1" id="b4e193e8-1127-475b-9af6-d0d0c44adf49">Shamanic Revelation</card>
+    <card qty="1" id="3874f322-9847-4a63-b7e1-718abbe1e0bd">Garruk, Cursed Huntsman</card>
+    <card qty="1" id="ab923455-5d5d-495e-ac93-ae0f01e0605e">Moldervine Reclamation</card>
+    <card qty="1" id="c579edb6-acba-4e44-b3d6-693cd4e0e2d8">Casualties of War</card>
+    <card qty="1" id="61f2155e-c3b2-4c8e-b5b0-25dd5e29228c">Deadly Dispute</card>
+    <card qty="1" id="6dda8d6b-fd31-4908-a953-20c180a33e56">Arasta of the Endless Web</card>
+    <card qty="1" id="16e8e655-2da1-46c9-b9fb-223dd366698b">Chittering Witch</card>
+    <card qty="1" id="f712e233-1de8-45e4-9225-790d608ac90b">Deep Forest Hermit</card>
+    <card qty="1" id="e64e60e8-67a3-4329-8232-d0f73c09be62">Decree of Pain</card>
+    <card qty="1" id="72ab0422-eba0-4e1e-9626-ef31b836dcd2">Chatterfang, Squirrel General</card>
+    <card qty="1" id="8d3facb6-314c-4dd2-a570-4515c596163c">Gilded Goose</card>
+    <card qty="1" id="6e4566f9-a6f5-420e-8ab8-ca505facc3d9">End-Raze Forerunners</card>
+    <card qty="1" id="7092aa38-4f05-4b18-b894-d55ca9fe9b15">Plaguecrafter</card>
+    <card qty="1" id="b7e92375-037c-4be1-8183-6261e0666e12">Poison-Tip Archer</card>
+    <card qty="1" id="9a8456d9-30dd-4acf-9255-e9540886df37">Maskwood Nexus</card>
+    <card qty="1" id="b4356e13-655b-40b8-ad08-4e28b7464a3c">Squirrel Sovereign</card>
+    <card qty="1" id="1ee78a73-10af-461a-9fd3-962fc1f0ccb0">Second Harvest</card>
+    <card qty="1" id="516d6669-929e-4884-ae92-9a98cb7f9376">Evolving Wilds</card>
+    <card qty="1" id="5fe6e199-26b5-4744-9748-f64ecadefc2f">Golgari Rot Farm</card>
+    <card qty="1" id="dcad6aed-4694-4a5e-9a27-e9cced43a29f">Grim Backwoods</card>
+    <card qty="1" id="a3ed4f23-b237-425e-9d26-f90d70713f7b">Haunted Mire</card>
+    <card qty="1" id="5401ef4c-b1e8-4f37-abe8-25c405d4f6ea">Jungle Hollow</card>
+    <card qty="1" id="f01e0e0e-f8c1-416d-bf4b-2b7661924e9b">Llanowar Wastes</card>
+    <card qty="1" id="078de083-d86c-4d51-b38f-58991c0d0e0a">Necroblossom Snarl</card>
+    <card qty="1" id="fc3d73d8-47cd-481c-ae13-9d993fd54420">Oran-Rief, the Vastwood</card>
+    <card qty="1" id="821cb722-146d-447e-907d-dc97baa5bc4f">Path of Ancestry</card>
+    <card qty="1" id="9426c906-e665-40a4-823a-0245bc39fbda">Chatterstorm</card>
+    <card qty="1" id="a3f4d41d-69a5-412f-aa25-f1acc5cacab2">Sword of the Squeak</card>
+    <card qty="1" id="21bb96d8-483c-4fde-97ea-08be9570c289">Terramorphic Expanse</card>
+    <card qty="1" id="791d9ea0-c70a-47a6-b8a3-0f5d36a5c44d">The Odd Acorn Gang</card>
+    <card qty="1" id="05b2af75-2e29-446b-b3d0-00b5e5d50b3c">Woe Strider</card>
+    <card qty="1" id="8506e3eb-07c1-4f5c-a2a7-c210acf6be16">Wolfwillow Haven</card>
+    <card qty="1" id="1c81a779-6b91-4de2-9065-d6821a787e7d">Tear Asunder</card>
+    <card qty="1" id="0b261989-b34e-4bba-90f8-2adfda58c89b">Toski, Bearer of Secrets</card>
+    <card qty="1" id="ac73d130-ceb6-41ea-af0d-314d5adba9e6">Tireless Provisioner</card>
+    <card qty="1" id="340efd40-6e1d-440e-b209-9b4993884e1d">Zulaport Cutthroat</card>
+    <card qty="1" id="156de082-e159-4830-867e-1b3bb8338291">Tainted Wood</card>
+    <card qty="1" id="a5adfe26-8549-4bbd-b881-527add402675">Windgrace&apos;s Judgment</card>
+    <card qty="1" id="49766e23-74f5-4d6a-a882-53127028face">Talisman of Resilience</card>
+    <card qty="1" id="4685198b-d40e-47be-8632-af4a1e71e7a1">Temple of Malady</card>
+    <card qty="1" id="bdf8439b-a31e-49d4-981a-d9532f83c370">Tranquil Thicket</card>
+    <card qty="1" id="142a605f-ec69-43eb-bdde-dd9e29f9fd22">Twilight Mire</card>
+    <card qty="1" id="991fca57-eb30-40e7-a443-784a104625b5">Viridescent Bog</card>
+    <card qty="1" id="7ab2f083-b674-4f8d-897b-9dc84ff85658">Woodland Cemetery</card>
+  </section>
+  <section name="Sideboard" shared="False">
+  </section>
+  <section name="Command Zone" shared="False">
+    <card qty="1" id="1269ca79-907e-4932-9e77-a9a5d2929060">Hazel of the Rootbloom</card>
+  </section>
+</deck>

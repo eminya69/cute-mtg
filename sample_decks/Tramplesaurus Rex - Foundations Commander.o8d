@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6c8d2e8-7cd8-11dd-8f94-e62b56d89593">
+  <section name="Main" shared="False">
+    <card qty="1" id="0cc5faf4-c42b-4bbe-bd1f-92be522330b3">Arachnogenesis</card>
+    <card qty="1" id="e08be63d-8e8e-4b7a-a5ad-f4df45ca6070">Beast Whisperer</card>
+    <card qty="1" id="fb56d3be-40e8-42fc-9d07-c3effe757052">Carnage Tyrant</card>
+    <card qty="1" id="d5c8619f-753b-472f-a6cd-00bd9e897279">Curious Altisaur</card>
+    <card qty="1" id="528fc1b2-62c9-4d83-bb43-58a59713a62b">Dungrove Elder</card>
+    <card qty="1" id="d43ef6eb-99ed-45a6-aee1-e87d3780d094">Ezuri&apos;s Predation</card>
+    <card qty="1" id="22c1d3c2-f038-4eab-8d6d-0e1001ee81cb">Gigantosaurus</card>
+    <card qty="1" id="10ddd8c1-6424-41cf-be1f-5fdc0b70a787">Hulking Raptor</card>
+    <card qty="1" id="b3efa417-b093-4924-9ff3-be9c43c963a1">Loot, Exuberant Explorer</card>
+    <card qty="1" id="50d4b86b-0868-4c25-a52d-8c1d40698682">Managorger Hydra</card>
+    <card qty="1" id="f8676812-9ac5-4a99-9c19-6bfb8bd765a0">Pugnacious Hammerskull</card>
+    <card qty="1" id="3bd07126-f507-4c8a-952f-d564bbb6526d">Rhonas the Indomitable</card>
+    <card qty="1" id="0bb78900-984b-4eb0-b0c1-29eb5cbd6939">Arasta of the Endless Web</card>
+    <card qty="1" id="0b384383-c069-40ab-b078-04d00c103963">Ripjaw Raptor</card>
+    <card qty="1" id="c2354a0a-1fb6-4de3-bcc9-df5565b3ceba">Rishkar&apos;s Expertise</card>
+    <card qty="1" id="7a4e636a-2926-4ee3-aae0-a5c784ce5edc">Scavenging Ooze</card>
+    <card qty="1" id="54816109-6152-44d6-8d6f-8c73aaa58049">Scrapshooter</card>
+    <card qty="1" id="db3b5708-9f41-48f7-99b5-cb30b191ee71">Shamanic Revelation</card>
+    <card qty="1" id="d5362bf5-de79-4ad8-866a-1c590998fc96">Steel Leaf Champion</card>
+    <card qty="1" id="22f0a911-5a48-4da4-bb02-950babaead2c">Surrak and Goreclaw</card>
+    <card qty="1" id="a1864bc3-d829-4146-ba4e-87736b0daa41">Surrak, the Hunt Caller</card>
+    <card qty="1" id="9fd7ac91-8f76-4fd1-afc5-9a3fd5ce6894">Tangleweave Armor</card>
+    <card qty="1" id="2534da93-ef25-4020-bea5-d3f75bfc44f8">Thickest in the Thicket</card>
+    <card qty="1" id="474aa068-bf84-46c6-a94c-9af1d69ad03a">Verdant Sun&apos;s Avatar</card>
+    <card qty="1" id="43f7ccca-7810-42de-86e2-ef09eb4a54c8">Whiptongue Hydra</card>
+    <card qty="1" id="15f742a6-7dbe-4d13-b25b-0b5a50f4550f">Yeva, Nature&apos;s Herald</card>
+    <card qty="1" id="60461a4f-a337-46b0-908f-fbd7479c235a">Witch&apos;s Clinic</card>
+    <card qty="1" id="eae3c792-cc9c-4442-a15a-7bab50a30dff">Challenger Troll</card>
+    <card qty="1" id="af8090e5-039e-4c74-b0fb-a6428d6340c1">Clifftop Lookout</card>
+    <card qty="1" id="1fa97b3c-7780-4f53-9b74-20e7f8e41602">Collective Resistance</card>
+    <card qty="1" id="2f545da8-0f7d-40e3-ace1-3bb8522f5b29">Colossal Majesty</card>
+    <card qty="1" id="f9f617e9-4142-4c49-ad6e-aaaeee91d59c">Fyndhorn Elves</card>
+    <card qty="1" id="0975d711-aebe-4e31-8e27-19368ec9873c">Garruk&apos;s Packleader</card>
+    <card qty="1" id="c7091f2e-1a10-48f0-881a-405b43634556">Goreclaw, Terror of Qal Sisma</card>
+    <card qty="1" id="c9dfb2e5-3ffe-4559-bdcb-50b98d4f16c6">Ilysian Caryatid</card>
+    <card qty="1" id="f265caeb-d1d2-4d95-ba38-9425482746e7">Kenrith&apos;s Transformation</card>
+    <card qty="1" id="4d14aac7-3551-4837-a00e-74cb71667bbe">Elemental Bond</card>
+    <card qty="1" id="9a373b9d-1c4c-4335-b7f8-30c5d6fef559">Llanowar Tribe</card>
+    <card qty="1" id="99ae5d53-3485-4773-850f-61d30293280f">Monstrous Onslaught</card>
+    <card qty="1" id="0e8f1205-fbe0-4a60-a215-172d94eba349">Paradise Druid</card>
+    <card qty="1" id="33516226-4b97-4cd1-a47f-a9b40631daea">Ram Through</card>
+    <card qty="1" id="f542fbf8-3700-4b86-83d8-d8bdf8f14285">Rishkar, Peema Renegade</card>
+    <card qty="1" id="1d167110-e5dd-409f-8744-016c26a14f1d">Tamiyo&apos;s Safekeeping</card>
+    <card qty="1" id="d268088d-a929-44eb-804c-02d625a7b019">Thrashing Brontodon</card>
+    <card qty="1" id="50d5f384-5a9e-4151-b3cf-2d68e6fa85f6">Whisperer of the Wilds</card>
+    <card qty="1" id="5e00229b-80cb-4abc-929f-fc7c6fe1cd17">Rhonas&apos;s Monument</card>
+    <card qty="1" id="212bd0a7-c61a-403d-b898-2042b84b9020">Tranquil Thicket</card>
+    <card qty="32" id="d232fcc2-12f6-401a-b1aa-ddff11cb9378">Forest</card>
+    <card qty="1" id="6672f025-525d-41ca-bd81-d4029e04f5f2">Birds of Paradise</card>
+    <card qty="1" id="be0d51ff-9a01-41bd-8e80-ee1e7117d695">Elder Gargaroth</card>
+    <card qty="1" id="2dd48f09-e9c7-4e93-b811-2158ae24c9fc">Overwhelming Stampede</card>
+    <card qty="1" id="c14646ba-8ac8-4bca-a2b3-67fc1f338f25">Regal Imperiosaur</card>
+    <card qty="1" id="48325111-3702-4521-b4c2-39177530e569">Unnatural Growth</card>
+    <card qty="1" id="7cfeb33d-65c7-4aa2-a1d8-964e6cd73b82">Bonders&apos; Enclave</card>
+    <card qty="1" id="94aff478-6040-4a13-be89-24e0edf1ffe5">Mosswort Bridge</card>
+    <card qty="1" id="3ebd02f0-d5f6-413b-bd20-7b070b10618a">Scavenger Grounds</card>
+    <card qty="1" id="b2593c45-585f-4eaf-bb08-e91a4fc2d425">War Room</card>
+    <card qty="1" id="cd6d61e9-239d-472b-a603-94290efbdad9">Beast Within</card>
+    <card qty="1" id="179344e8-ffb5-4bc1-9e35-307b390da01f">Bite Down</card>
+    <card qty="1" id="4b8a8685-6f30-4fa1-959a-75ffb8cd7fb0">Elvish Mystic</card>
+    <card qty="1" id="93ee55e0-9a2a-43f2-bd19-05e7ab04b262">Garruk&apos;s Uprising</card>
+    <card qty="1" id="36bd3fb1-deeb-422e-a29e-b50e7aa3c334">Harmonize</card>
+    <card qty="1" id="5368ce20-0970-4630-8c46-439db2231a39">Llanowar Elves</card>
+    <card qty="1" id="d2066390-7947-425c-ab6e-933b56f6a47a">Terrian, World Tyrant</card>
+    <card qty="1" id="a2f126c3-ef62-421b-8d3e-2ae2f2d4f000">Commander&apos;s Sphere</card>
+    <card qty="1" id="c193aab3-e53a-40ff-bd30-892170a88ff9">Swiftfoot Boots</card>
+    <card qty="1" id="2e38a5d6-9e99-4ace-ad2b-8dced251a0f2">Rogue&apos;s Passage</card>
+    <card qty="1" id="4f152dd9-2b35-45b2-90fe-8c71d0634226">Sol Ring</card>
+  </section>
+  <section name="Sideboard" shared="False">
+  </section>
+  <section name="Command Zone" shared="False">
+    <card qty="1" id="5d9951d1-3228-4d69-8e63-6e6f0a893a86">Ghalta, Primal Hunger</card>
+  </section>
+</deck>

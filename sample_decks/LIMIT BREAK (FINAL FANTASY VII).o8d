@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6c8d2e8-7cd8-11dd-8f94-e62b56d89593">
+  <section name="Main" shared="False">
+    <card qty="1" id="07b4e4f8-6a31-4533-be51-668ce3ddc84f">Cloud, Ex-SOLDIER</card>
+    <card qty="1" id="31513afc-329c-4913-8fcd-945c39ec82b2">Tifa, Martial Artist</card>
+    <card qty="1" id="afa9e3e6-a633-46ad-b52a-48574b2f3d07">Cid, Freeflier Pilot</card>
+    <card qty="1" id="1eb10082-4f0a-41f9-9a70-0d3c7ead249f">Cloud&apos;s Limit Break</card>
+    <card qty="1" id="d16553a3-65c3-4dec-af92-123d1e5dce10">Elena, Turk Recruit</card>
+    <card qty="1" id="8e216baf-0e3c-4173-a852-5c5aeb3a9d79">Heidegger, Shinra Executive</card>
+    <card qty="1" id="2073f387-9cdd-4184-8704-e6031c934b6d">Helitrooper</card>
+    <card qty="1" id="dddad2c2-bd19-42bd-aad6-bbf23ccef269">SOLDIER Military Program</card>
+    <card qty="1" id="8fdb8414-2f08-42fb-ae0a-c7f0af1e144e">Ultimate Magic: Holy</card>
+    <card qty="1" id="20a87dbc-5deb-42ae-9097-806e9a27466f">Avalanche of Sector 7</card>
+    <card qty="1" id="3e0f6c53-6bbf-4d4c-bbbf-4dab22297527">Cait Sith, Fortune Teller</card>
+    <card qty="1" id="ba934866-efd0-4126-b1ff-9c7e82b73bd6">Summon: Kujata</card>
+    <card qty="1" id="b5b0f0fd-574a-4ae7-ab55-b815112d6b3a">Ultimate Magic: Meteor</card>
+    <card qty="1" id="9e53d0b2-eeb0-4d54-86e5-723e05aaf6da">Vincent, Vengeful Atoner</card>
+    <card qty="1" id="117bb5db-4a1c-4704-b0b5-c67b45ac2f52">Yuffie, Materia Hunter</card>
+    <card qty="1" id="99155fae-507a-4eab-918a-bdee021e2262">Bugenhagen, Wise Elder</card>
+    <card qty="1" id="48b4101b-3428-4b6b-818a-6097a093e9b5">Lifestream&apos;s Blessing</card>
+    <card qty="1" id="107ffe2e-47eb-43de-bc9e-c68013b62912">Professor Hojo</card>
+    <card qty="1" id="176401fb-f87c-4085-9dac-e6c8a843e32e">Summoning Materia</card>
+    <card qty="1" id="d041a51c-9a28-4b32-9da3-0f06807959f1">Aerith, Last Ancient</card>
+    <card qty="1" id="2e37fd36-84f0-4869-bfae-da4b97c9725d">Barret, Avalanche Leader</card>
+    <card qty="1" id="10407b26-be28-4628-9567-746681e5c834">Red XIII, Proud Warrior</card>
+    <card qty="1" id="df919eb8-9eff-4777-9c46-94c795cda918">Sephiroth, Fallen Hero</card>
+    <card qty="1" id="019615fa-4bec-41e8-9c4c-2c6f91bdefb2">Conformer Shuriken</card>
+    <card qty="1" id="e1f16620-08d6-49bd-9f75-d89ae46bfd1f">Wrecking Ball Arm</card>
+    <card qty="1" id="a8bc7912-e201-468a-b251-140205cb741c">Austere Command</card>
+    <card qty="1" id="1582488a-ad15-487e-9271-6d9330b46fb4">Bastion Protector</card>
+    <card qty="1" id="8cd5cc66-2ade-4142-9269-7d9905b029e5">Bronze Guardian</card>
+    <card qty="1" id="41d45a8a-ea1d-4fbc-86d2-5d6340f3b639">Clever Concealment</card>
+    <card qty="1" id="d8f8a324-006d-4cb8-9816-620a603b4229">Puresteel Paladin</card>
+    <card qty="1" id="76c9b6c1-05de-4c16-8ebf-ea68aa110a69">Unfinished Business</card>
+    <card qty="1" id="f392782b-7464-4617-b421-6b5d0e2880fc">Vanquish the Horde</card>
+    <card qty="1" id="fb8d8106-b9bd-405c-886e-72fc301c65e1">Chaos Warp</card>
+    <card qty="1" id="a7cb4100-1696-4393-8f1f-634018e0b78f">Hellkite Tyrant</card>
+    <card qty="1" id="42acbf52-b137-44f0-a815-2817fe8d2da2">Professional Face-Breaker</card>
+    <card qty="1" id="cf0e68bc-8de8-4ff8-a39a-8da95f71d843">Decimate</card>
+    <card qty="1" id="cc0be4ff-c346-4c22-8357-9a2383a53469">Armory Automaton</card>
+    <card qty="1" id="c6548a30-577a-47e7-aa6e-8f6db1f7b78e">Champion&apos;s Helm</card>
+    <card qty="1" id="d5f5399a-26c6-4ecd-9715-f6440f6958f1">Conqueror&apos;s Flail</card>
+    <card qty="1" id="3f99fb1e-99a6-4c83-98eb-7bff23996a7f">Darksteel Plate</card>
+    <card qty="1" id="4f7e4c0a-683b-4b22-9ea5-ed6470b8b1d7">Inspiring Statuary</card>
+    <card qty="1" id="64401acc-d080-4763-b67a-95164c11c69e">Sword of the Animist</card>
+    <card qty="1" id="c47c1bf5-f11e-4f86-b20b-5d899a11dc56">Battlefield Forge</card>
+    <card qty="1" id="d174f42c-dcf2-4da9-812b-7e1d0991d466">Bonders&apos; Enclave</card>
+    <card qty="1" id="18d236ce-3b78-403a-b5f9-4fb44123d85b">Brushland</card>
+    <card qty="1" id="369e6485-fbc7-45f9-ac9d-2e26dd94f2d5">Canopy Vista</card>
+    <card qty="1" id="ec93087a-5728-40e8-8625-a1d175d5252c">Cinder Glade</card>
+    <card qty="1" id="4a7f7767-1959-4812-8654-0a22634096b1">Clifftop Retreat</card>
+    <card qty="1" id="d11c5fe0-1528-4c94-a8cc-42bcab9d7487">Exotic Orchard</card>
+    <card qty="1" id="1927d645-ca43-4b8e-9932-7e70acca7aa6">Fire-Lit Thicket</card>
+    <card qty="1" id="15f81ac6-a550-4782-a3a9-22d7fef1c206">Fortified Village</card>
+    <card qty="1" id="afc12892-4978-4442-ace5-c4dea5c0ee00">Furycalm Snarl</card>
+    <card qty="1" id="2a84a604-7b05-4716-bcd8-40d2acdb76e8">Game Trail</card>
+    <card qty="1" id="29208018-8079-44bc-b33b-21cda4709bf2">Mossfire Valley</card>
+    <card qty="1" id="42d174e5-b8c2-45eb-8e08-1b94fc27cbee">Rootbound Crag</card>
+    <card qty="1" id="6bd21c9e-de16-4ee9-ae16-6e82b490109d">Rugged Prairie</card>
+    <card qty="1" id="9fbe68ba-ffe5-4fe0-ac0a-0b3221e4f395">Scavenger Grounds</card>
+    <card qty="1" id="3b2c82ea-6793-407c-ac9f-5fc14d4d09ea">Slayers&apos; Stronghold</card>
+    <card qty="1" id="35e9ec06-a848-4230-84a2-19cb8034e0f0">Spire of Industry</card>
+    <card qty="1" id="841f369e-6532-469c-8565-78094b33a3d9">Sungrass Prairie</card>
+    <card qty="1" id="e83092ee-4a90-4eac-915f-3fd01b7d9bd0">Sunpetal Grove</card>
+    <card qty="1" id="eae999f9-9c58-4609-8ade-aca0acf07519">Sunscorched Divide</card>
+    <card qty="1" id="f21f9161-5945-40da-8da0-446f6a4a1c23">Zack Fair</card>
+    <card qty="1" id="1a504dff-5857-4a61-ab99-616d5df7cf5a">Barret Wallace</card>
+    <card qty="1" id="99d30a21-b003-4a17-a4c5-97811f230896">Dispatch</card>
+    <card qty="1" id="9be712b3-14ed-4a73-b3d3-5b76b2c5db64">Secret Rendezvous</card>
+    <card qty="1" id="1f5da1ab-d720-4140-8121-89de760d020c">Furious Rise</card>
+    <card qty="1" id="71067239-d46f-4201-a91c-6aa4c41fa8b1">Vandalblast</card>
+    <card qty="1" id="e60deb92-f7dd-4f4e-9036-e47dd586f985">Cultivate</card>
+    <card qty="1" id="bd7138fb-6aa7-455e-b1f7-ca08d747277d">Harmonize</card>
+    <card qty="1" id="7afc4a15-5ff8-457a-aa62-803b2d78d912">Nature&apos;s Lore</card>
+    <card qty="1" id="b7c47024-5e08-4b17-b41a-7647f8b814b9">Rampant Growth</card>
+    <card qty="1" id="179461b8-0a6b-48c5-9d1f-db8bcfecc6f9">Behemoth Sledge</card>
+    <card qty="1" id="1cad1bd2-7c56-4ce0-99a6-b2a49c1288dd">Arcane Signet</card>
+    <card qty="1" id="897a134e-7e61-4fe1-bbae-23ef1fe5c0cf">Colossus Hammer</card>
+    <card qty="1" id="be120499-fe2f-4c21-982c-566d0dbbddff">Explorer&apos;s Scope</card>
+    <card qty="1" id="6f2fa911-5735-4ee2-828f-59dea6927b20">Hero&apos;s Blade</card>
+    <card qty="1" id="5b7c0d2d-7107-4599-8d49-c7c57d21e467">Hero&apos;s Heirloom</card>
+    <card qty="1" id="b61634ae-05be-4b56-8ebb-9d4ade902e42">Lightning Greaves</card>
+    <card qty="1" id="ba275c02-8581-46a0-9c7c-8baa0fdb4982">Mask of Memory</card>
+    <card qty="1" id="1d8b007b-3169-4ee3-80c7-781fc096fc7a">Skullclamp</card>
+    <card qty="1" id="91fdb56b-54d5-4272-8319-505ff987fe9b">Sol Ring</card>
+    <card qty="1" id="aa05985b-e2cb-412f-a2ad-b8d723d9f451">Trailblazer&apos;s Boots</card>
+    <card qty="1" id="e8510205-4baa-4f1c-bf64-5d931e2ddf48">Ash Barrens</card>
+    <card qty="1" id="c0318a48-30e4-4ef7-be3d-5e561c5ce428">Evolving Wilds</card>
+    <card qty="1" id="0b1a84b6-4202-4413-80ed-4142c51e619a">Jungle Shrine</card>
+    <card qty="1" id="b1aaa7b0-1cac-4a92-b880-7ef1ac00618f">Path of Ancestry</card>
+    <card qty="1" id="466fd4e6-f1dd-40c9-92df-1da48ab729d6">Radiant Grove</card>
+    <card qty="1" id="ee2d6798-b19d-4628-bb57-05663ab4af68">Sacred Peaks</card>
+    <card qty="1" id="e8e31184-dca4-48b1-be9d-581247c41d99">Wooded Ridgeline</card>
+    <card qty="1" id="0548fb60-c843-4f8f-a029-6f10efc63a41">Command Tower</card>
+    <card qty="3" id="2a844b96-6616-4c39-8f4f-5d14a3b2bd55">Mountain</card>
+    <card qty="3" id="dce15387-4114-4b3e-91aa-5b42b45c44ac">Forest</card>
+    <card qty="3" id="8ab0f4c0-b331-4c57-b68f-2e24bb5ba06c">Plains</card>
+  </section>
+  <section name="Sideboard" shared="False">
+  </section>
+  <section name="Command Zone" shared="False">
+  </section>
+</deck>

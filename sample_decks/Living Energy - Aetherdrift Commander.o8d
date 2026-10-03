@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6c8d2e8-7cd8-11dd-8f94-e62b56d89593">
+  <section name="Main" shared="False">
+    <card qty="1" id="f4b46b1f-0cfe-42cc-aac5-e6912b2f9fd2">Pia Nalaar, Chief Mechanic</card>
+    <card qty="1" id="c1e2f2af-dbba-4e4c-9c60-ac4d245e1431">Territorial Aetherkite</card>
+    <card qty="1" id="a471b306-4941-4e46-a0cb-d92895c16f8a">Nissa, Worldsoul Speaker</card>
+    <card qty="1" id="d513e533-d3c5-45a1-a03c-2770b7b6832b">Peema Trailblazer</card>
+    <card qty="1" id="bd923b84-067b-4041-a0f8-e2083e0debe9">Rampaging Aetherhood</card>
+    <card qty="1" id="1603aab8-731c-407a-bb44-625c36ace43e">Adaptive Omnitool</card>
+    <card qty="1" id="dd9ac0f2-2d8f-40fc-97fb-d6e05633405d">Aetherflux Conduit</card>
+    <card qty="1" id="21c33a91-b02c-43ec-a385-aa0349928f9c">Aetheric Amplifier</card>
+    <card qty="1" id="4c398d11-a2fc-43e2-96e9-7f3383e1a43c">Stridehangar Automaton</card>
+    <card qty="1" id="4ec4e917-97c8-4b68-ba83-514d5c29679f">Chain Reaction</card>
+    <card qty="1" id="128deed2-b9bc-4065-95c9-ccd7b08f1230">Academy Ruins</card>
+    <card qty="1" id="de6a3b58-ddb6-4524-9685-3a34a1fd9e8f">Duplicant</card>
+    <card qty="1" id="85fc3d2a-e254-4e1c-8a9d-15a3ea94810b">Druid of Purification</card>
+    <card qty="1" id="18081e2b-6a63-45d0-b321-1ca7c90ef408">Chaos Warp</card>
+    <card qty="1" id="80f8aa2a-78e1-4717-a0bd-a435f4922668">Disallow</card>
+    <card qty="1" id="dea200c8-6da5-4938-8b76-cc693e03de29">Sai, Master Thopterist</card>
+    <card qty="1" id="d1fff9a2-75c1-4623-9185-7cade6531b1e">Blasphemous Act</card>
+    <card qty="1" id="4be99ea7-331a-406d-8a75-5bcfe64d1890">Combustible Gearhulk</card>
+    <card qty="1" id="f17e68fd-9c05-460d-96aa-dd0ab8b7af37">Pia and Kiran Nalaar</card>
+    <card qty="1" id="f11222dc-0dd8-48df-8106-f9e99f0b6e11">Architect of the Untamed</card>
+    <card qty="1" id="9be25e90-393a-4c30-86e2-6fa0d8be4247">Bootleggers&apos; Stash</card>
+    <card qty="1" id="e5729bd1-f480-4a9a-a36c-c36bf4b85a3f">Elder Gargaroth</card>
+    <card qty="1" id="7e520d49-f3d5-46b3-a941-c57936648a47">Conjurer&apos;s Closet</card>
+    <card qty="1" id="6e6ab4b6-49a8-4c02-a230-74a29f535f8c">Cultivator&apos;s Caravan</card>
+    <card qty="1" id="fcddaf73-0242-4db8-817b-d65c17119372">Retrofitter Foundry</card>
+    <card qty="1" id="36726ee1-b960-4f85-b648-dd3fe0c38e6f">Triplicate Titan</card>
+    <card qty="1" id="0f31cb4c-c0f4-42fc-9661-723f78ee4d56">Exotic Orchard</card>
+    <card qty="1" id="85ca1a50-7627-4a6e-aaf7-83761abc31b9">Frostboil Snarl</card>
+    <card qty="1" id="105c31a5-6e63-4442-b87a-56f324ab816e">Hinterland Harbor</card>
+    <card qty="1" id="cffc9b01-2f61-4eb1-8bfa-cbe746a7104b">Karplusan Forest</card>
+    <card qty="1" id="93a361a8-ecf2-4901-a948-c2fda6bd3aa9">Overflowing Basin</card>
+    <card qty="1" id="70ea3d14-a1e6-4150-98c5-44be53473bd1">Rootbound Crag</card>
+    <card qty="1" id="f6af5583-bb1d-4405-95b1-5e2683580c19">Sheltered Thicket</card>
+    <card qty="1" id="2c6275ea-0565-436b-ab9a-ac17c465e14b">Shivan Reef</card>
+    <card qty="1" id="47b550aa-5304-491e-b486-58a6258986b7">Spire of Industry</card>
+    <card qty="1" id="eb24d2b9-8683-454b-b911-d694202d1081">Sulfur Falls</card>
+    <card qty="1" id="6263bd52-081a-4307-918d-a9aeb4419a16">Temple of Epiphany</card>
+    <card qty="1" id="f183b2d3-961a-499a-aa04-595793f01edc">Treasure Vault</card>
+    <card qty="1" id="4b1003ca-809c-4e91-8368-e6b8fa870f23">Vineglimmer Snarl</card>
+    <card qty="1" id="9fbdd138-142d-4712-954e-8673d02d8079">Yavimaya Coast</card>
+    <card qty="1" id="c946b161-0e4f-4c0a-a075-cdcf05504d0b">Sol Ring</card>
+    <card qty="1" id="4b8bfdd3-7c73-4d13-8a8d-50b6dd85fad3">Lightning Greaves</card>
+    <card qty="1" id="0bf28443-7124-44e1-b387-95c3bd1a9da2">Command Tower</card>
+    <card qty="1" id="0baad613-6c5b-4b5e-a784-b43f2acaf689">Arcane Denial</card>
+    <card qty="1" id="913bb5da-57b7-44c0-9c6e-630ae71c4b1b">Glimmer of Genius</card>
+    <card qty="1" id="3f2ddb63-e4d0-418e-9ec7-70add0ed06a8">Whirler Rogue</card>
+    <card qty="1" id="072e502a-c340-4f50-9f51-62d50242b17c">Loyal Apprentice</card>
+    <card qty="1" id="ea73440b-a306-4425-84c0-5e18b6ec0516">Explosive Vegetation</card>
+    <card qty="1" id="442c3621-3d4c-4145-b63d-81cd2564374b">Attune with Aether</card>
+    <card qty="1" id="deaad8d1-9a60-4a65-8f20-53d83be09619">Peema Aether-Seer</card>
+    <card qty="1" id="e6f210bf-30c9-4904-9ceb-4ab180938f09">Whirler Virtuoso</card>
+    <card qty="1" id="2e7329c4-5803-43f0-a4b5-306fb77923b7">Saheeli, Sublime Artificer</card>
+    <card qty="1" id="3adcc4c3-9305-4394-a64f-fd0fa107cbf9">Commander&apos;s Sphere</card>
+    <card qty="1" id="bb6a8c30-e824-4137-b83e-b9d175a0d037">Aether Hub</card>
+    <card qty="1" id="6a28f0c0-6673-4fe1-b2a1-1f9ed236eff7">Evolving Wilds</card>
+    <card qty="1" id="8e629e32-c3c3-4582-b319-e70b8fd6403d">Frontier Bivouac</card>
+    <card qty="1" id="4898fba1-d692-4440-bfff-ae535bdc1ba8">Path of Ancestry</card>
+    <card qty="1" id="39a60957-eaee-4154-824f-148dba07161a">Slagwoods Bridge</card>
+    <card qty="1" id="2adf277c-945e-49b4-88d7-ac720863d0d6">Tanglepool Bridge</card>
+    <card qty="5" id="5a8e9b9e-4947-4b6a-b21b-6fe009760fc5">Island</card>
+    <card qty="5" id="653e2393-30a7-4e0c-bd20-f05ca0ba3cb6">Mountain</card>
+    <card qty="6" id="b69adddd-3626-45d6-8100-26cf1f314d00">Forest</card>
+    <card qty="1" id="6a0f5301-0af9-496d-b55d-6bb5518b009c">Soul-Guide Lantern</card>
+    <card qty="1" id="3e626e3e-1d08-4d6c-b29b-71157e568b45">Reckless Fireweaver</card>
+    <card qty="1" id="b7e7eba5-8bd8-4c7d-8843-cae6c2ce0043">Aetherworks Marvel</card>
+    <card qty="1" id="78e396a1-a56e-418b-a342-c09a11218a85">Aethertide Whale</card>
+    <card qty="1" id="76f318f4-f809-42ff-99f4-12a51d38c8f7">Aetherwind Basker</card>
+    <card qty="1" id="9d7903ff-359b-49f5-8782-c9dd789c2da6">Panharmonicon</card>
+    <card qty="1" id="0422cfdd-0a7c-4097-8655-b074cd8fd713">Arcane Signet</card>
+    <card qty="1" id="192882f3-88bc-4fcf-b57c-31108401e4bd">Aethersquall Ancient</card>
+    <card qty="1" id="80e06596-fb1a-4d89-8d91-c6b95014f132">Lightning Runner</card>
+    <card qty="1" id="0e63512b-32a4-495a-8f8d-273e74505995">Decoction Module</card>
+    <card qty="1" id="9099b12d-8c5b-4e76-b7c4-260599e5a3b3">Chromatic Lantern</card>
+    <card qty="1" id="d401b4af-649d-4b97-864d-5796a1a8e22b">Midnight Clock</card>
+    <card qty="1" id="47c976ee-7eb3-42bb-8bfb-5eda12417e97">Ornithopter of Paradise</card>
+    <card qty="1" id="40bccd95-acd9-48d1-817c-b07f95234427">Talisman of Curiosity</card>
+    <card qty="1" id="fbc1c8dd-ea66-4dc3-8444-9f20758a45f7">Solar Transformer</card>
+    <card qty="1" id="399d68b5-adeb-4a7c-99de-c1ea99b73fa1">Solemn Simulacrum</card>
+    <card qty="1" id="f433cd63-1d11-4782-a051-00151fac3a85">Servant of the Conduit</card>
+    <card qty="1" id="e42f232d-73c3-40bd-8ca2-da53ca20f9de">Bespoke Battlewagon</card>
+    <card qty="1" id="f114e0fe-1879-42de-83cb-104ace913ffb">One with the Machine</card>
+    <card qty="1" id="edf49825-c432-4eb3-97da-b92ae6b9fab8">Era of Innovation</card>
+    <card qty="1" id="fdd39363-34f0-4bb7-9537-69a47789a3b4">Confiscation Coup</card>
+    <card qty="1" id="d0adecc7-21fe-41b1-a0bd-58f98970e283">Thopter Spy Network</card>
+    <card qty="1" id="4d2f716f-97b3-49dd-b52c-0030d20b1c7f">Rogue Refiner</card>
+    <card qty="1" id="ea37a906-2f9b-4eb1-97be-134c280ba43e">Reality Shift</card>
+  </section>
+  <section name="Sideboard" shared="False">
+  </section>
+  <section name="Command Zone" shared="False">
+    <card qty="1" id="5fea0781-e933-47ef-9414-92c8652a7778">Saheeli, Radiant Creator</card>
+  </section>
+</deck>
