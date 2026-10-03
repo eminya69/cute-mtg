@@ -2,17 +2,55 @@ const fs = require('fs');
 const path = require('path');
 const { DatabaseSync } = require('node:sqlite');
 
-const OCTGN_SETS_DIR = 'C:\\Users\\Emily\\AppData\\Local\\Programs\\OCTGN\\Data\\GameDatabase\\a6c8d2e8-7cd8-11dd-8f94-e62b56d89593\\Sets';
-const OCTGN_IMAGES_DIR = 'C:\\Users\\Emily\\AppData\\Local\\Programs\\OCTGN\\Data\\ImageDatabase\\A6C8D2E8-7CD8-11DD-8F94-E62B56D89593\\Sets';
-const OUTPUT_DIR = path.join(__dirname, 'data');
-const DB_PATH = path.join(OUTPUT_DIR, 'cards.db');
+// Resolve OCTGN Game Sets Directory
+const candidateSetsDirs = [
+  process.env.OCTGN_SETS_DIR,
+  process.env.LOCALAPPDATA ? path.join(process.env.LOCALAPPDATA, 'Programs', 'OCTGN', 'Data', 'GameDatabase', 'a6c8d2e8-7cd8-11dd-8f94-e62b56d89593', 'Sets') : null,
+  path.join(__dirname, 'data', 'Sets'),
+  path.join(__dirname, 'Sets')
+].filter(Boolean);
+
+const OCTGN_SETS_DIR = candidateSetsDirs.find(d => fs.existsSync(d));
+
+if (!OCTGN_SETS_DIR) {
+  console.error('\n[ERROR] OCTGN Sets directory not found!');
+  console.error('Checked candidate paths:');
+  candidateSetsDirs.forEach(d => console.error('  -', d));
+  console.error('\nPlease specify the OCTGN Sets path using the OCTGN_SETS_DIR environment variable:');
+  console.error('  PowerShell: $env:OCTGN_SETS_DIR="C:\\Path\\To\\OCTGN\\Data\\GameDatabase\\...\\Sets"; node build-cards-db.js');
+  console.error('  Bash/Linux: OCTGN_SETS_DIR="/path/to/Sets" node build-cards-db.js\n');
+  process.exit(1);
+}
+
+// Resolve OCTGN Images Directory (optional, for image index verification)
+const candidateImagesDirs = [
+  process.env.OCTGN_IMAGES_DIR,
+  process.env.IMAGES_DIR,
+  process.env.LOCALAPPDATA ? path.join(process.env.LOCALAPPDATA, 'Programs', 'OCTGN', 'Data', 'ImageDatabase', 'A6C8D2E8-7CD8-11DD-8F94-E62B56D89593', 'Sets') : null,
+  path.join(__dirname, 'images', 'Sets'),
+  path.join(__dirname, 'images')
+].filter(Boolean);
+
+const OCTGN_IMAGES_DIR = candidateImagesDirs.find(d => fs.existsSync(d)) || null;
+
+const OUTPUT_DIR = process.env.DATA_DIR || path.join(__dirname, 'data');
+const DB_PATH = process.env.DB_PATH || path.join(OUTPUT_DIR, 'cards.db');
 
 if (!fs.existsSync(OUTPUT_DIR)) {
   fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 }
 
 if (fs.existsSync(DB_PATH)) {
-  fs.unlinkSync(DB_PATH);
+  try {
+    fs.unlinkSync(DB_PATH);
+  } catch (err) {
+    if (err.code === 'EBUSY' || err.code === 'EPERM') {
+      console.error(`\n[ERROR] Database file is currently locked by another process (e.g. running game server): ${DB_PATH}`);
+      console.error('Please stop the server before rebuilding cards.db, or set DB_PATH to an alternate output path.\n');
+      process.exit(1);
+    }
+    throw err;
+  }
 }
 
 const db = new DatabaseSync(DB_PATH);

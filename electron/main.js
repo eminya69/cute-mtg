@@ -8,8 +8,9 @@ function createWindow () {
     height: 720,
     title: "Wifey: The Headpattening",
     webPreferences: {
-      nodeIntegration: true,
-      contextIsolation: false
+      nodeIntegration: false,
+      contextIsolation: true,
+      preload: path.join(__dirname, 'preload.js')
     }
   });
 

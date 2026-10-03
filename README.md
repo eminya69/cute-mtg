@@ -88,10 +88,19 @@ npm install
 
 ### 2. Build the Cards Database (If not already present)
 
-If `data/cards.db` is missing, compile it from OCTGN sets or Scryfall dumps:
+If `data/cards.db` is missing, compile it from your local OCTGN GameDatabase:
 
 ```bash
+# Automatically detects OCTGN installed on Windows (%LOCALAPPDATA%):
 node build-cards-db.js
+
+# Or specify custom paths if running on Linux or non-standard directory:
+# PowerShell:
+$env:OCTGN_SETS_DIR = "D:\OCTGN\Data\GameDatabase\a6c8d2e8-7cd8-11dd-8f94-e62b56d89593\Sets"
+node build-cards-db.js
+
+# Bash / Linux:
+OCTGN_SETS_DIR="/path/to/Sets" node build-cards-db.js
 ```
 
 ### 3. Build the Frontend Assets
@@ -131,11 +140,18 @@ The Electron app (`cute-mtg-client.exe`) is designed as a portable desktop clien
 ```
 cute-mtg-electron-simple/
 ├── main.js             # Electron main process (Window lifecycle, menus, IPC file dialogs)
+├── preload.js          # Secure contextBridge preload script (Zero Node access in renderer)
 ├── launcher.html       # Connection screen with IP address input & error fallback
 ├── package.json        # Electron package configuration
 ├── pack.js             # Automated electron-packager build script
 └── config.cfg          # Default configuration (Server URL & Autoconnect setting)
 ```
+
+### Electron Security & Isolation Model
+To prevent Remote Code Execution (RCE) over unencrypted LAN or HTTP connections:
+- **`nodeIntegration: false`**: Node.js APIs (`require`, `process`, `fs`, `child_process`, `Buffer`) are strictly disabled in the renderer window.
+- **`contextIsolation: true`**: The preload script and the loaded web app execute in completely segregated JavaScript contexts.
+- **`contextBridge`**: Only 5 strictly validated, minimal IPC methods are exposed to the DOM via `window.electronAPI` (`openExternal`, `refocusWindow`, `setIgnoreMenuShortcuts`, `selectDeckFile`, `onMenuLoadDeck`). Any attacker intercepting LAN traffic has zero access to host machine capabilities.
 
 ### How `config.cfg` Works
 
@@ -192,7 +208,7 @@ If you want to manually construct the bundle without build tools:
    Use the binaries located at `node_modules/electron/dist/` (or download an official release of Electron `v44.x` / `v34.x` for `win32-x64`).
 
 2. **Create the Application Archive (`app.asar`)**:
-   Pack `cute-mtg-electron-simple` (containing `main.js`, `launcher.html`, `package.json`):
+   Pack `cute-mtg-electron-simple` (containing `main.js`, `preload.js`, `launcher.html`, `package.json`):
    ```bash
    npx asar pack cute-mtg-electron-simple app.asar
    ```
@@ -314,15 +330,21 @@ The server uses a local SQLite database (`cards.db`) containing card records map
 | `PORT` | `3000` | HTTP & WebSocket port |
 | `DB_PATH` | `./data/cards.db` | Path to the SQLite card database |
 | `IMAGES_DIR` | `./images` or OCTGN AppData | Directory containing cached/downloaded card art |
+| `OCTGN_IMAGES_DIR` | Auto-detected from `%LOCALAPPDATA%` | Path to OCTGN ImageDatabase directory |
+| `OCTGN_SETS_DIR` | Auto-detected from `%LOCALAPPDATA%` | Path to OCTGN GameDatabase Sets directory |
 
 ### Local Image Ingestion (`upload-octgn-images.ps1`)
 
 If you have OCTGN card image packs installed on a Windows machine:
 1. Open PowerShell and run:
    ```powershell
-   .\upload-octgn-images.ps1
+   # Automatically detects OCTGN installed on Windows (%LOCALAPPDATA%):
+   .\upload-octgn-images.ps1 -ProxmoxHost 10.42.69.1 -CtId 117
+
+   # Or specify custom paths if non-standard:
+   .\upload-octgn-images.ps1 -ProxmoxHost 10.42.69.1 -CtId 117 -OctgnDir "D:\OCTGN\Data\ImageDatabase\..."
    ```
-2. This archives `AppData\Local\Programs\OCTGN\Data\ImageDatabase\` into `octgn-images.tar` and transfers it to your server via `scp`.
+2. This archives the OCTGN images into `octgn-images.tar` and transfers it to your server via `scp`.
 3. The server extracts images to `/opt/cute-mtg/images/Sets/<SetId>/Cards/<CardId>.jpg`.
 4. Any card art missing locally is automatically downloaded and cached from Scryfall on demand.
 

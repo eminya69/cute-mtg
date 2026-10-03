@@ -22,23 +22,27 @@ const socket = io(serverUrl, {
 });
 
 const CARD_BACK = `${serverUrl}/api/card-back`;
-const isElectron = new URLSearchParams(window.location.search).get('electron') === 'true';
+
+// Secure Electron Bridge (via preload.js + contextBridge)
+const electronAPI = window.electronAPI || {
+  isElectron: false,
+  openExternal: (url) => { window.open(url, '_blank', 'noopener,noreferrer'); },
+  refocusWindow: () => {},
+  setIgnoreMenuShortcuts: () => {},
+  selectDeckFile: async () => ({ canceled: true }),
+  onMenuLoadDeck: () => () => {}
+};
+
+const isElectron = Boolean(window.electronAPI?.isElectron || new URLSearchParams(window.location.search).get('electron') === 'true');
 
 const openExternalUrl = (url) => {
   try {
-    if (window.require) {
-      const { ipcRenderer, shell } = window.require('electron');
-      if (ipcRenderer) {
-        ipcRenderer.send('open-external', url);
-        return;
-      }
-      if (shell) {
-        shell.openExternal(url);
-        return;
-      }
+    if (electronAPI.openExternal) {
+      electronAPI.openExternal(url);
+      return;
     }
   } catch (err) {}
-  window.open(url, '_blank');
+  window.open(url, '_blank', 'noopener,noreferrer');
 };
 
 // UI Components
@@ -315,16 +319,12 @@ function App() {
         isAlert: false,
         onConfirm: () => {
           setConfirmDialog(null);
-          if (window.require) {
-            try { window.require('electron').ipcRenderer.send('refocus-window'); } catch(e) {}
-          }
+          electronAPI.refocusWindow();
           resolve(true);
         },
         onCancel: () => {
           setConfirmDialog(null);
-          if (window.require) {
-            try { window.require('electron').ipcRenderer.send('refocus-window'); } catch(e) {}
-          }
+          electronAPI.refocusWindow();
           resolve(false);
         }
       });
@@ -341,16 +341,12 @@ function App() {
         isAlert: true,
         onConfirm: () => {
           setConfirmDialog(null);
-          if (window.require) {
-            try { window.require('electron').ipcRenderer.send('refocus-window'); } catch(e) {}
-          }
+          electronAPI.refocusWindow();
           resolve();
         },
         onCancel: () => {
           setConfirmDialog(null);
-          if (window.require) {
-            try { window.require('electron').ipcRenderer.send('refocus-window'); } catch(e) {}
-          }
+          electronAPI.refocusWindow();
           resolve();
         }
       });
@@ -664,9 +660,7 @@ function App() {
           e.target !== document.activeElement && 
           !document.activeElement.contains(e.target)) {
         document.activeElement.blur();
-        if (window.require) {
-          try { window.require('electron').ipcRenderer.send('set-ignore-menu-shortcuts', false); } catch(err) {}
-        }
+        electronAPI.setIgnoreMenuShortcuts(false);
       }
     };
 
@@ -692,12 +686,7 @@ function App() {
   useEffect(() => {
     if (modal?.type === 'add_counter') {
       window.focus();
-      try {
-        if (window.require) {
-          const { ipcRenderer } = window.require('electron');
-          if (ipcRenderer) ipcRenderer.send('refocus-window');
-        }
-      } catch (err) {}
+      electronAPI.refocusWindow();
       const timer = setTimeout(() => {
         const el = document.getElementById('customName');
         if (el) {
@@ -1244,10 +1233,9 @@ function App() {
     if (isOpeningDeckRef.current) return;
     isOpeningDeckRef.current = true;
     try {
-      if (window.require) {
-        const { ipcRenderer } = window.require('electron');
-        const res = await ipcRenderer.invoke('select-deck-file');
-        try { ipcRenderer.send('refocus-window'); } catch(e) {}
+      if (electronAPI.selectDeckFile) {
+        const res = await electronAPI.selectDeckFile();
+        electronAPI.refocusWindow();
         window.focus();
         if (res && !res.canceled && res.content) {
           await loadDeckFromXml(res.content, res.filename);
@@ -1266,18 +1254,13 @@ function App() {
   };
 
   useEffect(() => {
-    if (!window.require) return;
-    try {
-      const { ipcRenderer } = window.require('electron');
-      if (!ipcRenderer) return;
-      const handler = () => {
-        handleNativeDeckOpen();
-      };
-      ipcRenderer.on('menu-load-deck', handler);
-      return () => {
-        ipcRenderer.removeListener('menu-load-deck', handler);
-      };
-    } catch(err) {}
+    if (!electronAPI.onMenuLoadDeck) return;
+    const unsubscribe = electronAPI.onMenuLoadDeck(() => {
+      handleNativeDeckOpen();
+    });
+    return () => {
+      if (typeof unsubscribe === 'function') unsubscribe();
+    };
   }, []);
 
   const handleFileUpload = async (e) => {
@@ -1602,12 +1585,7 @@ function App() {
 
   const addCustomCounter = (id) => {
     setModal({ type: 'add_counter', cardId: id });
-    try {
-      if (window.require) {
-        const { ipcRenderer } = window.require('electron');
-        if (ipcRenderer) ipcRenderer.send('refocus-window');
-      }
-    } catch (e) {}
+    electronAPI.refocusWindow();
   };
 
   const drawCard = (amount = 1) => {
@@ -2173,14 +2151,10 @@ function App() {
                 onMouseDown={e => e.stopPropagation()}
                 onClick={e => { e.stopPropagation(); e.currentTarget.focus(); }}
                 onFocus={() => {
-                  if (window.require) {
-                    try { window.require('electron').ipcRenderer.send('set-ignore-menu-shortcuts', true); } catch(err) {}
-                  }
+                  electronAPI.setIgnoreMenuShortcuts(true);
                 }}
                 onBlur={() => {
-                  if (window.require) {
-                    try { window.require('electron').ipcRenderer.send('set-ignore-menu-shortcuts', false); } catch(err) {}
-                  }
+                  electronAPI.setIgnoreMenuShortcuts(false);
                 }}
               />
               <button onClick={() => {
@@ -2205,14 +2179,10 @@ function App() {
                 onMouseDown={e => e.stopPropagation()}
                 onClick={e => { e.stopPropagation(); e.currentTarget.focus(); }}
                 onFocus={() => {
-                  if (window.require) {
-                    try { window.require('electron').ipcRenderer.send('set-ignore-menu-shortcuts', true); } catch(err) {}
-                  }
+                  electronAPI.setIgnoreMenuShortcuts(true);
                 }}
                 onBlur={() => {
-                  if (window.require) {
-                    try { window.require('electron').ipcRenderer.send('set-ignore-menu-shortcuts', false); } catch(err) {}
-                  }
+                  electronAPI.setIgnoreMenuShortcuts(false);
                 }}
                 onKeyDown={(e) => { if(e.key==='Enter') document.getElementById('btn-name').click() }} 
               />
@@ -2238,14 +2208,10 @@ function App() {
                 onMouseDown={e => e.stopPropagation()}
                 onClick={e => { e.stopPropagation(); e.currentTarget.focus(); }}
                 onFocus={() => {
-                  if (window.require) {
-                    try { window.require('electron').ipcRenderer.send('set-ignore-menu-shortcuts', true); } catch(err) {}
-                  }
+                  electronAPI.setIgnoreMenuShortcuts(true);
                 }}
                 onBlur={() => {
-                  if (window.require) {
-                    try { window.require('electron').ipcRenderer.send('set-ignore-menu-shortcuts', false); } catch(err) {}
-                  }
+                  electronAPI.setIgnoreMenuShortcuts(false);
                 }}
                 onKeyDown={(e) => { if(e.key==='Enter') document.getElementById('btn-scry').click() }} 
               />
@@ -2271,14 +2237,10 @@ function App() {
                 onMouseDown={e => e.stopPropagation()}
                 onClick={e => { e.stopPropagation(); e.currentTarget.focus(); }}
                 onFocus={() => {
-                  if (window.require) {
-                    try { window.require('electron').ipcRenderer.send('set-ignore-menu-shortcuts', true); } catch(err) {}
-                  }
+                  electronAPI.setIgnoreMenuShortcuts(true);
                 }}
                 onBlur={() => {
-                  if (window.require) {
-                    try { window.require('electron').ipcRenderer.send('set-ignore-menu-shortcuts', false); } catch(err) {}
-                  }
+                  electronAPI.setIgnoreMenuShortcuts(false);
                 }}
                 onKeyDown={(e) => { if(e.key==='Enter') document.getElementById('btn-draw').click() }} 
               />
@@ -2304,14 +2266,10 @@ function App() {
                 onMouseDown={e => e.stopPropagation()}
                 onClick={e => { e.stopPropagation(); e.currentTarget.focus(); }}
                 onFocus={() => {
-                  if (window.require) {
-                    try { window.require('electron').ipcRenderer.send('set-ignore-menu-shortcuts', true); } catch(err) {}
-                  }
+                  electronAPI.setIgnoreMenuShortcuts(true);
                 }}
                 onBlur={() => {
-                  if (window.require) {
-                    try { window.require('electron').ipcRenderer.send('set-ignore-menu-shortcuts', false); } catch(err) {}
-                  }
+                  electronAPI.setIgnoreMenuShortcuts(false);
                 }}
                 onKeyDown={(e) => { if(e.key==='Enter') document.getElementById('btn-mill').click() }} 
               />
@@ -2338,15 +2296,11 @@ function App() {
                   onMouseDown={e => e.stopPropagation()}
                   onClick={e => { e.stopPropagation(); e.currentTarget.focus(); }}
                   onFocus={() => {
-                    if (window.require) {
-                      try { window.require('electron').ipcRenderer.send('set-ignore-menu-shortcuts', true); } catch(err) {}
-                    }
-                  }}
-                  onBlur={() => {
-                    if (window.require) {
-                      try { window.require('electron').ipcRenderer.send('set-ignore-menu-shortcuts', false); } catch(err) {}
-                    }
-                  }}
+                  electronAPI.setIgnoreMenuShortcuts(true);
+                }}
+                onBlur={() => {
+                  electronAPI.setIgnoreMenuShortcuts(false);
+                }}
                   onKeyDown={(e) => { if(e.key==='Enter') document.getElementById('btn-exile').click() }} 
                 />
                 <label className="flex items-center gap-2 text-sm font-bold text-gray-600 dark:text-gray-300 cursor-pointer">
@@ -2604,15 +2558,11 @@ function App() {
                   onMouseDown={(e) => e.stopPropagation()}
                   onClick={(e) => { e.stopPropagation(); e.currentTarget.focus(); }}
                   onFocus={() => {
-                    if (window.require) {
-                      try { window.require('electron').ipcRenderer.send('set-ignore-menu-shortcuts', true); } catch(err) {}
-                    }
-                  }}
-                  onBlur={() => {
-                    if (window.require) {
-                      try { window.require('electron').ipcRenderer.send('set-ignore-menu-shortcuts', false); } catch(err) {}
-                    }
-                  }}
+                  electronAPI.setIgnoreMenuShortcuts(true);
+                }}
+                onBlur={() => {
+                  electronAPI.setIgnoreMenuShortcuts(false);
+                }}
                   onKeyDown={(e) => { e.stopPropagation(); if(e.key==='Enter') document.getElementById('btn-add-custom').click() }} 
                 />
                 <input 
@@ -2623,15 +2573,11 @@ function App() {
                   onMouseDown={(e) => e.stopPropagation()}
                   onClick={(e) => { e.stopPropagation(); e.currentTarget.focus(); }}
                   onFocus={() => {
-                    if (window.require) {
-                      try { window.require('electron').ipcRenderer.send('set-ignore-menu-shortcuts', true); } catch(err) {}
-                    }
-                  }}
-                  onBlur={() => {
-                    if (window.require) {
-                      try { window.require('electron').ipcRenderer.send('set-ignore-menu-shortcuts', false); } catch(err) {}
-                    }
-                  }}
+                  electronAPI.setIgnoreMenuShortcuts(true);
+                }}
+                onBlur={() => {
+                  electronAPI.setIgnoreMenuShortcuts(false);
+                }}
                   onKeyDown={(e) => { e.stopPropagation(); if(e.key==='Enter') document.getElementById('btn-add-custom').click() }} 
                 />
                 <button id="btn-add-custom" onClick={() => {
@@ -4322,15 +4268,11 @@ function App() {
             onMouseDown={e => e.stopPropagation()}
             onClick={e => { e.stopPropagation(); e.currentTarget.focus(); }}
             onFocus={() => {
-              if (window.require) {
-                try { window.require('electron').ipcRenderer.send('set-ignore-menu-shortcuts', true); } catch(err) {}
-              }
-            }}
-            onBlur={() => {
-              if (window.require) {
-                try { window.require('electron').ipcRenderer.send('set-ignore-menu-shortcuts', false); } catch(err) {}
-              }
-            }}
+                  electronAPI.setIgnoreMenuShortcuts(true);
+                }}
+                onBlur={() => {
+                  electronAPI.setIgnoreMenuShortcuts(false);
+                }}
             className="flex-1 p-1 px-2 border border-pink-200 rounded-full text-sm dark:bg-gray-700 dark:border-gray-600 dark:text-white outline-none focus:border-pink-400" 
             placeholder="Chat or /command..." 
           />

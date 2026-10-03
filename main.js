@@ -15,10 +15,10 @@ const io = new Server(httpServer, { cors: { origin: "*" } });
 // ==========================================
 const CANDIDATE_IMAGE_DIRS = [
   process.env.IMAGES_DIR,
-  '/opt/cute-mtg/images',
-  path.join(__dirname, 'images'),
+  process.env.OCTGN_IMAGES_DIR,
   process.env.LOCALAPPDATA ? path.join(process.env.LOCALAPPDATA, 'Programs', 'OCTGN', 'Data', 'ImageDatabase', 'A6C8D2E8-7CD8-11DD-8F94-E62B56D89593') : null,
-  'C:\\Users\\Emily\\AppData\\Local\\Programs\\OCTGN\\Data\\ImageDatabase\\A6C8D2E8-7CD8-11DD-8F94-E62B56D89593'
+  '/opt/cute-mtg/images',
+  path.join(__dirname, 'images')
 ].filter(Boolean);
 
 let BASE_IMAGE_DIR = CANDIDATE_IMAGE_DIRS.find(d => fs.existsSync(d)) || path.join(__dirname, 'images');

@@ -10,13 +10,21 @@
 param(
     [string]$ProxmoxHost = "",
     [int]$CtId = 117,
+    [string]$OctgnDir = "",
     [switch]$CreateArchiveOnly
 )
 
-$OctgnDir = "C:\Users\Emily\AppData\Local\Programs\OCTGN\Data\ImageDatabase\A6C8D2E8-7CD8-11DD-8F94-E62B56D89593"
+# Resolve OCTGN Image Directory dynamically
+if (-not $OctgnDir) {
+    if ($env:OCTGN_IMAGES_DIR -and (Test-Path "$env:OCTGN_IMAGES_DIR\Sets")) {
+        $OctgnDir = $env:OCTGN_IMAGES_DIR
+    } elseif ($env:LOCALAPPDATA -and (Test-Path "$env:LOCALAPPDATA\Programs\OCTGN\Data\ImageDatabase\A6C8D2E8-7CD8-11DD-8F94-E62B56D89593\Sets")) {
+        $OctgnDir = Join-Path $env:LOCALAPPDATA "Programs\OCTGN\Data\ImageDatabase\A6C8D2E8-7CD8-11DD-8F94-E62B56D89593"
+    }
+}
 
-if (-not (Test-Path "$OctgnDir\Sets")) {
-    Write-Error "OCTGN Sets directory not found at $OctgnDir\Sets"
+if (-not $OctgnDir -or -not (Test-Path "$OctgnDir\Sets")) {
+    Write-Error "OCTGN Sets directory not found. Please provide -OctgnDir <path> or set the `$env:OCTGN_IMAGES_DIR environment variable."
     exit 1
 }
 
